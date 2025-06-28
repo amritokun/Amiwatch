@@ -13,14 +13,14 @@ def gitCommitHash = providers.exec {
 }.standardOutput.asText.get().trim()
 
 android {
-    compileSdk 34
+    compileSdk 35
 
     defaultConfig {
         applicationId "ani.saikou"
         minSdk 21
-        targetSdk 34
+        targetSdk 35
         versionCode ((System.currentTimeMillis() / 60000).toInteger())
-        versionName "1.2.5"
+        versionName "0.0.1"
         signingConfig signingConfigs.debug
     }
 
