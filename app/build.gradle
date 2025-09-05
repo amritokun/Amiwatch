@@ -16,7 +16,7 @@ android {
     compileSdk 35
 
     defaultConfig {
-        applicationId "ani.saikou"
+        applicationId "com.amiwatch"
         minSdk 21
         targetSdk 35
         versionCode ((System.currentTimeMillis() / 60000).toInteger())
@@ -45,7 +45,7 @@ android {
     kotlinOptions {
         jvmTarget = '17'
     }
-    namespace 'ani.saikou'
+    namespace 'com.amiwatch'
 }
 
 dependencies {

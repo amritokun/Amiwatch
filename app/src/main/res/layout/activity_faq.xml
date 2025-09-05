@@ -22,7 +22,7 @@
         app:drawableTint="@color/bg_opp"
         app:drawableStartCompat="@drawable/ic_round_arrow_back_ios_new_24" />
 
-    <ani.saikou.FadingEdgeRecyclerView
+    <com.amiwatch.FadingEdgeRecyclerView
         android:id="@+id/devsRecyclerView"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"

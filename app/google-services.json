@@ -9,7 +9,7 @@
       "client_info": {
         "mobilesdk_app_id": "1:185630514021:android:b565f9c8ff5db6d5f55f8c",
         "android_client_info": {
-          "package_name": "ani.saikou"
+          "package_name": "com.amiwatch"
         }
       },
       "oauth_client": [
@@ -38,7 +38,7 @@
       "client_info": {
         "mobilesdk_app_id": "1:185630514021:android:7e9680cddc590ff3f55f8c",
         "android_client_info": {
-          "package_name": "ani.saikou.beta"
+          "package_name": "com.amiwatch.beta"
         }
       },
       "oauth_client": [

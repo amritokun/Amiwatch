@@ -34,7 +34,7 @@
         tools:ignore="AllowBackup"
         tools:targetApi="m">
         <activity
-            android:name="ani.saikou.media.novel.novelreader.NovelReaderActivity"
+            android:name="com.amiwatch.media.novel.novelreader.NovelReaderActivity"
             android:configChanges="orientation|screenSize"
             android:exported="true" >
             <intent-filter>
@@ -75,9 +75,9 @@
         <activity
             android:name=".media.CalendarActivity"
             android:parentActivityName=".MainActivity" />
-        <activity android:name="ani.saikou.media.user.ListActivity" />
+        <activity android:name="com.amiwatch.media.user.ListActivity" />
         <activity
-            android:name="ani.saikou.media.manga.mangareader.MangaReaderActivity"
+            android:name="com.amiwatch.media.manga.mangareader.MangaReaderActivity"
             android:excludeFromRecents="true"
             android:exported="true"
             android:label="@string/manga"
@@ -90,7 +90,7 @@
         <activity android:name=".media.CharacterDetailsActivity" />
         <activity android:name=".home.NoInternet" />
         <activity
-            android:name="ani.saikou.media.anime.ExoplayerView"
+            android:name="com.amiwatch.media.anime.ExoplayerView"
             android:configChanges="orientation|screenSize|smallestScreenSize|screenLayout|keyboard|keyboardHidden|navigation"
             android:excludeFromRecents="true"
             android:exported="true"
@@ -99,7 +99,7 @@
             android:supportsPictureInPicture="true"
             tools:targetApi="n" />
         <activity
-            android:name="ani.saikou.connections.anilist.Login"
+            android:name="com.amiwatch.connections.anilist.Login"
             android:configChanges="orientation|screenSize|layoutDirection"
             android:excludeFromRecents="true"
             android:exported="true"
@@ -116,7 +116,7 @@
             </intent-filter>
         </activity>
         <activity
-            android:name="ani.saikou.connections.mal.Login"
+            android:name="com.amiwatch.connections.mal.Login"
             android:configChanges="orientation|screenSize|layoutDirection"
             android:excludeFromRecents="true"
             android:exported="true"
@@ -133,7 +133,7 @@
             </intent-filter>
         </activity>
 
-        <activity android:name="ani.saikou.connections.discord.Login"
+        <activity android:name="com.amiwatch.connections.discord.Login"
             android:configChanges="orientation|screenSize|layoutDirection"
             android:excludeFromRecents="true"
             android:exported="true"
@@ -152,7 +152,7 @@
         </activity>
 
         <activity
-            android:name="ani.saikou.connections.anilist.UrlMedia"
+            android:name="com.amiwatch.connections.anilist.UrlMedia"
             android:configChanges="orientation|screenSize|layoutDirection"
             android:excludeFromRecents="true"
             android:exported="true"
@@ -198,7 +198,7 @@
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.BOOT_COMPLETED" />
-                <action android:name="Aani.saikou.ACTION_ALARM"/>
+                <action android:name="Acom.amiwatch.ACTION_ALARM"/>
             </intent-filter>
         </receiver>
 
