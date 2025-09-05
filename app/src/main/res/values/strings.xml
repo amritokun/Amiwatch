@@ -1,9 +1,9 @@
 <resources>
 
-    <string name="repo">saikou-app/saikou</string>
+    <string name="repo">Amritokun/Amiwatch</string>
     <string name="preference_file_key" translatable="false">saikouprefs</string>
 
-    <string name="app_name">Saikou</string>
+    <string name="app_name">AmiWatch</string>
     <string name="slogan">The Best Anime &amp; Manga app for Android.</string>
 
     <string name="login">Login</string>
@@ -11,7 +11,7 @@
 
     <string name="discord">https://discord.gg/2T7TunuwFZ</string>
     <string name="telegram">https://telegram.me/saikou_app</string>
-    <string name="github">https://github.com/saikou-app/saikou</string>
+    <string name="github">https://github.com/amritokun/amiwatch</string>
 
     <string name="home">Home</string>
     <string name="anime">Anime</string>
