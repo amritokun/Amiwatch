@@ -7,8 +7,8 @@ import android.os.Bundle
 import androidx.multidex.MultiDex
 import androidx.multidex.MultiDexApplication
 import com.amiwatch.others.DisabledReports
-import com.google.firebase.crashlytics.ktx.crashlytics
-import com.google.firebase.ktx.Firebase
+import com.google.firebase.crashlytics.crashlytics
+import com.google.firebase.Firebase
 
 @SuppressLint("StaticFieldLeak")
 class App : MultiDexApplication() {
