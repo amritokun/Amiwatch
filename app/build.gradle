@@ -17,7 +17,7 @@ android {
 
     defaultConfig {
         applicationId "com.amiwatch"
-        minSdk 21
+        minSdk 23
         targetSdk 36
         versionCode ((System.currentTimeMillis() / 60000).toInteger())
         versionName "0.0.1"
