@@ -2,16 +2,23 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools">
 
+    <!-- Permissions -->
     <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
     <uses-permission android:name="android.permission.INTERNET" />
     <uses-permission android:name="android.permission.POST_NOTIFICATIONS" />
     <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
     <uses-permission android:name="android.permission.REQUEST_INSTALL_PACKAGES" />
+
+    <!-- Old external storage permissions (deprecated) -->
     <uses-permission
         android:name="android.permission.WRITE_EXTERNAL_STORAGE"
         android:maxSdkVersion="29"
         tools:ignore="ScopedStorage" />
-    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+
+    <!-- Replaced READ_EXTERNAL_STORAGE with Android 13+ scoped permissions -->
+    <uses-permission android:name="android.permission.READ_MEDIA_IMAGES" />
+    <uses-permission android:name="android.permission.READ_MEDIA_VIDEO" />
+    <uses-permission android:name="android.permission.READ_MEDIA_AUDIO" />
 
     <queries>
         <package android:name="idm.internet.download.manager.plus" />
@@ -33,10 +40,12 @@
         android:usesCleartextTraffic="true"
         tools:ignore="AllowBackup"
         tools:targetApi="m">
+
+        <!-- Novel Reader -->
         <activity
             android:name="com.amiwatch.media.novel.novelreader.NovelReaderActivity"
             android:configChanges="orientation|screenSize"
-            android:exported="true" >
+            android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.VIEW" />
                 <category android:name="android.intent.category.DEFAULT" />
@@ -57,6 +66,8 @@
                 <data android:scheme="file" />
             </intent-filter>
         </activity>
+
+        <!-- Settings -->
         <activity android:name=".settings.FAQActivity" />
         <activity android:name=".settings.ReaderSettingsActivity" />
         <activity android:name=".settings.UserInterfaceSettingsActivity" />
@@ -89,6 +100,8 @@
             android:theme="@style/Theme.Saikou.NeverCutout" />
         <activity android:name=".media.CharacterDetailsActivity" />
         <activity android:name=".home.NoInternet" />
+
+        <!-- ExoPlayer -->
         <activity
             android:name="com.amiwatch.media.anime.ExoplayerView"
             android:configChanges="orientation|screenSize|smallestScreenSize|screenLayout|keyboard|keyboardHidden|navigation"
@@ -98,66 +111,67 @@
             android:launchMode="singleTask"
             android:supportsPictureInPicture="true"
             tools:targetApi="n" />
+
+        <!-- Logins -->
         <activity
             android:name="com.amiwatch.connections.anilist.Login"
             android:configChanges="orientation|screenSize|layoutDirection"
             android:excludeFromRecents="true"
             android:exported="true"
             android:launchMode="singleTask">
-            <intent-filter android:label="Anilist Login for Saikou">
+            <intent-filter android:label="Anilist Login for Saikou" android:autoVerify="false">
                 <action android:name="android.intent.action.VIEW" />
 
                 <category android:name="android.intent.category.DEFAULT" />
                 <category android:name="android.intent.category.BROWSABLE" />
 
-                <data
-                    android:host="anilist"
-                    android:scheme="saikou" />
+                <data android:host="anilist" android:scheme="saikou" />
             </intent-filter>
         </activity>
+
         <activity
             android:name="com.amiwatch.connections.mal.Login"
             android:configChanges="orientation|screenSize|layoutDirection"
             android:excludeFromRecents="true"
             android:exported="true"
             android:launchMode="singleTask">
-            <intent-filter android:label="Myanimelist Login for Saikou">
+            <intent-filter android:label="Myanimelist Login for Saikou" android:autoVerify="false">
                 <action android:name="android.intent.action.VIEW" />
 
                 <category android:name="android.intent.category.DEFAULT" />
                 <category android:name="android.intent.category.BROWSABLE" />
 
-                <data
-                    android:host="mal"
-                    android:scheme="saikou" />
+                <data android:host="mal" android:scheme="saikou" />
             </intent-filter>
         </activity>
 
-        <activity android:name="com.amiwatch.connections.discord.Login"
+        <activity
+            android:name="com.amiwatch.connections.discord.Login"
             android:configChanges="orientation|screenSize|layoutDirection"
             android:excludeFromRecents="true"
             android:exported="true"
             android:launchMode="singleTask">
-            <intent-filter android:label="Discord Login for Saikou">
+            <intent-filter android:label="Discord Login for Saikou" android:autoVerify="false">
                 <action android:name="android.intent.action.VIEW" />
 
                 <category android:name="android.intent.category.DEFAULT" />
                 <category android:name="android.intent.category.BROWSABLE" />
 
-                <data android:scheme="saikou"/>
+                <data android:scheme="saikou" />
                 <data android:scheme="http" />
                 <data android:scheme="https" />
-                <data android:host="discord.saikou.com"/>
+                <data android:host="discord.saikou.com" />
             </intent-filter>
         </activity>
 
+        <!-- External URL handlers -->
         <activity
             android:name="com.amiwatch.connections.anilist.UrlMedia"
             android:configChanges="orientation|screenSize|layoutDirection"
             android:excludeFromRecents="true"
             android:exported="true"
             android:launchMode="singleTask">
-            <intent-filter android:label="@string/read_on_aniwatch">
+            <intent-filter android:label="@string/read_on_aniwatch" android:autoVerify="false">
                 <action android:name="android.intent.action.VIEW" />
 
                 <category android:name="android.intent.category.DEFAULT" />
@@ -169,7 +183,7 @@
                 <data android:host="myanimelist.net" />
                 <data android:pathPrefix="/manga" />
             </intent-filter>
-            <intent-filter android:label="@string/watch_on_aniwatch">
+            <intent-filter android:label="@string/watch_on_aniwatch" android:autoVerify="false">
                 <action android:name="android.intent.action.VIEW" />
 
                 <category android:name="android.intent.category.DEFAULT" />
@@ -182,23 +196,25 @@
                 <data android:pathPrefix="/anime" />
             </intent-filter>
         </activity>
+
+        <!-- Main -->
         <activity
             android:name=".MainActivity"
             android:configChanges="orientation|screenSize|layoutDirection"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
-
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
 
+        <!-- Boot receiver -->
         <receiver
             android:name=".subcriptions.AlarmReceiver"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.BOOT_COMPLETED" />
-                <action android:name="Acom.amiwatch.ACTION_ALARM"/>
+                <action android:name="Acom.amiwatch.ACTION_ALARM" />
             </intent-filter>
         </receiver>
 
@@ -206,6 +222,7 @@
             android:name="preloaded_fonts"
             android:resource="@array/preloaded_fonts" />
 
+        <!-- File Provider -->
         <provider
             android:name="androidx.core.content.FileProvider"
             android:authorities="${applicationId}.provider"
@@ -217,13 +234,14 @@
                 android:resource="@xml/provider_paths" />
         </provider>
 
-        <service android:name=".download.video.MyDownloadService"
+        <!-- Download Service -->
+        <service
+            android:name=".download.video.MyDownloadService"
             android:exported="false">
             <intent-filter>
-                <action android:name="androidx.media3.exoplayer.downloadService.action.RESTART"/>
-                <category android:name="android.intent.category.DEFAULT"/>
+                <action android:name="androidx.media3.exoplayer.downloadService.action.RESTART" />
+                <category android:name="android.intent.category.DEFAULT" />
             </intent-filter>
         </service>
     </application>
-
 </manifest>

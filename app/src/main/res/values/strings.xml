@@ -414,7 +414,7 @@
     <string name="please_login_anilist">Please Login with Anilist!</string>
     <string name="auto_update_reset">Auto Update Progress has now been Reset-ed</string>
     <string name="cant_wait">Can\'t Wait, huh? fine X(</string>
-    <string name="downloading">Downloadingâ€¦</string>
+    <string name="downloading">Downloading...</string>
     <string name="next_chapter_not_found">Next Chapter Not Found</string>
     <string name="first_chapter">This is the 1st Chapter!</string>
     <string name="adult_stuff">Adult Stuff?&#40; &#865;&#176; &#860;&#662; &#865;&#176; &#41;</string>
@@ -427,7 +427,7 @@
     <string name="episode_not_found">Couldn\'t find episode : %1$s</string>
     <string name="list_updated">List Updated</string>
     <string name="deleted_from_list">Deleted from List</string>
-    <string name="no_list_id">No List ID found, reloadingâ€¦</string>
+    <string name="no_list_id">No List ID found, reloading...</string>
     <string name="checking_for_update">Checking for Update</string>
     <string name="dont_show_again">Don\'t show again for version %1$s</string>
     <string name="no_update_found">No Update Found</string>
