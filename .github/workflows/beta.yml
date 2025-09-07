@@ -37,7 +37,7 @@ jobs:
         run: echo "${{ secrets.KEYSTORE_B64 }}" | base64 -d > $GITHUB_WORKSPACE/signing-key.jks
 
       - name: Enable Reports
-        run: sed "s/DisabledReports=true/DisabledReports=false/g" -i app/src/main/java/ani/saikou/others/DisabledReports.kt
+        run: sed "s/DisabledReports=true/DisabledReports=false/g" -i app/src/main/java/com/amiwatch/others/DisabledReports.kt
 
       - name: Grant execute permission for gradlew
         run: chmod +x gradlew
