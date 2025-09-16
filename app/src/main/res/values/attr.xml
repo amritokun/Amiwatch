@@ -8,4 +8,6 @@
     <declare-styleable name="Xpandable">
         <attr name="isExpanded" format="boolean"/>
     </declare-styleable>
+
+    <attr name="iconColor" format="color|reference" />
 </resources>

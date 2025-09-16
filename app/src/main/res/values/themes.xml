@@ -11,6 +11,7 @@
         <item name="colorOnSecondary">@color/bg_black</item>
         <item name="colorSecondaryContainer">?attr/colorSecondary</item>
         <item name="colorOnSecondaryContainer">?attr/colorOnSecondary</item>
+        <item name="iconColor">@color/icon_color_light</item>
         <item name="colorOnSurfaceVariant">@color/nav_tab</item>
         <item name="elevationOverlayEnabled">false</item>
         <item name="windowActionBar">false</item>

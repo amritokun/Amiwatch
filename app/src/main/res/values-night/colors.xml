@@ -10,4 +10,5 @@
     <color name="status">#54212F3D</color>
     <color name="nav_status">#80121B2B</color>
     <color name="filler">#29B2DFDB</color>
+    <color name="icon_color_dark">#FFFFFFFF</color>
 </resources>
