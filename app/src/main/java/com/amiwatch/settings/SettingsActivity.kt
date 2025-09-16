@@ -281,7 +281,7 @@ OS Version: $CODENAME $RELEASE ($SDK_INT)
             lifecycleScope.launch {
                 it.pop()
             }
-            openLinkInBrowser("https://www.buymeacoffee.com/brahmkshatriya")
+            openLinkInBrowser("https://ko-fi.com/amritokun")
         }
         lifecycleScope.launch {
             binding.settingBuyMeCoffee.pop()
@@ -295,7 +295,7 @@ OS Version: $CODENAME $RELEASE ($SDK_INT)
             lifecycleScope.launch {
                 it.pop()
             }
-            val upi = "upi://pay?pa=brahmkshatriya@apl&pn=Saikou"
+            val upi = "upi://pay?pa=amritokun@kotak&pn=Amiwatch"
             val intent = Intent(Intent.ACTION_VIEW).apply {
                 data = Uri.parse(upi)
             }
@@ -506,10 +506,10 @@ OS Version: $CODENAME $RELEASE ($SDK_INT)
                         title = "Enjoying the App?"
                         addView(TextView(this@SettingsActivity).apply {
                             text =
-                                "Consider donating!\nOnce we reach the goal of $1000 (60%+ already reached!), Get ready to get an Offline Player & Manga Downloads!"
+                                "Consider donating!\n Your Donation keeps our hopes up to work"
                         })
 
-                        setNegativeButton("no moners :(") {
+                        setNegativeButton("Broke asf :(") {
                             snackString("That's alright, you'll be a rich man soon :prayge:")
                             dismiss()
                         }
