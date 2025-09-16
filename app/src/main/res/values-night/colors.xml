@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <color name="bg">#000000</color>
-    <color name="fg">#A8EEEEEE</color>
-    <color name="bg_opp">@color/bg_white</color>
-    <color name="nav_bg">#1C1C1C</color>
-    <color name="nav_bg_inv">#001C1C1C</color>
-    <color name="nav_tab">#40ffffff</color>
-    <color name="nav_tab_disabled">#40ffffff</color>
-    <color name="status">#54000000</color>
-    <color name="nav_status">#80000000</color>
-    <color name="filler">#29FF6B08</color>
+    <color name="bg">#0A0E1A</color>
+    <color name="bg_opp">#EEEEEE</color>
+    <color name="fg">#B3FFFFFF</color>
+    <color name="nav_bg">#121B2B</color>
+    <color name="nav_bg_inv">#00121B2B</color>
+    <color name="nav_tab">#40FFFFFF</color>
+    <color name="nav_tab_disabled">#19FFFFFF</color>
+    <color name="status">#54212F3D</color>
+    <color name="nav_status">#80121B2B</color>
+    <color name="filler">#29B2DFDB</color>
 </resources>
