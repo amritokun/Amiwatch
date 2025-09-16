@@ -171,7 +171,7 @@
             android:excludeFromRecents="true"
             android:exported="true"
             android:launchMode="singleTask">
-            <intent-filter android:label="@string/read_on_aniwatch" android:autoVerify="false">
+            <intent-filter android:label="@string/read_on_amiwatch" android:autoVerify="false">
                 <action android:name="android.intent.action.VIEW" />
 
                 <category android:name="android.intent.category.DEFAULT" />
@@ -183,7 +183,7 @@
                 <data android:host="myanimelist.net" />
                 <data android:pathPrefix="/manga" />
             </intent-filter>
-            <intent-filter android:label="@string/watch_on_aniwatch" android:autoVerify="false">
+            <intent-filter android:label="@string/watch_on_amiwatch" android:autoVerify="false">
                 <action android:name="android.intent.action.VIEW" />
 
                 <category android:name="android.intent.category.DEFAULT" />
