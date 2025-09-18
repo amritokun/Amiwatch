@@ -1,4 +1,4 @@
-package ani.dantotsu.others
+package com.amiwatch.others
 
 import android.annotation.SuppressLint
 import android.app.Activity
@@ -13,21 +13,21 @@ import android.widget.TextView
 import androidx.core.content.ContextCompat
 import androidx.core.content.getSystemService
 import androidx.fragment.app.FragmentActivity
-import ani.dantotsu.BuildConfig
-import ani.dantotsu.Mapper
-import ani.dantotsu.R
-import ani.dantotsu.buildMarkwon
-import ani.dantotsu.client
-import ani.dantotsu.connections.comments.CommentsAPI
-import ani.dantotsu.currContext
-import ani.dantotsu.decodeBase64ToString
-import ani.dantotsu.logError
-import ani.dantotsu.openLinkInBrowser
-import ani.dantotsu.settings.saving.PrefManager
-import ani.dantotsu.snackString
-import ani.dantotsu.toast
-import ani.dantotsu.tryWithSuspend
-import ani.dantotsu.util.Logger
+import com.amiwatch.BuildConfig
+import com.amiwatch.Mapper
+import com.amiwatch.R
+import com.amiwatch.buildMarkwon
+import com.amiwatch.client
+import com.amiwatch.connections.comments.CommentsAPI
+import com.amiwatch.currContext
+import com.amiwatch.decodeBase64ToString
+import com.amiwatch.logError
+import com.amiwatch.openLinkInBrowser
+import com.amiwatch.settings.saving.PrefManager
+import com.amiwatch.snackString
+import com.amiwatch.toast
+import com.amiwatch.tryWithSuspend
+import com.amiwatch.util.Logger
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.MainScope
 import kotlinx.coroutines.launch
@@ -208,10 +208,10 @@ object AppUpdater {
 
         val request = DownloadManager.Request(Uri.parse(url))
             .setMimeType("application/vnd.android.package-archive")
-            .setTitle("Downloading Dantotsu $version")
+            .setTitle("Downloading Amiwatch $version")
             .setDestinationInExternalPublicDir(
                 Environment.DIRECTORY_DOWNLOADS,
-                "Dantotsu $version.apk"
+                "Amiwatch $version.apk"
             )
             .setAllowedNetworkTypes(DownloadManager.Request.NETWORK_WIFI or DownloadManager.Request.NETWORK_MOBILE)
             .setAllowedOverRoaming(true)

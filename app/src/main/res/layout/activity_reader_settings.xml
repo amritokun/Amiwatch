@@ -74,7 +74,7 @@
             android:clipToPadding="false"
             android:orientation="vertical">
 
-            <ani.dantotsu.others.Xpandable
+            <com.amiwatch.others.Xpandable
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:orientation="vertical">
@@ -638,9 +638,9 @@
                     app:showText="false"
                     app:thumbTint="@color/button_switch_track" />
 
-            </ani.dantotsu.others.Xpandable>
+            </com.amiwatch.others.Xpandable>
 
-            <ani.dantotsu.others.Xpandable
+            <com.amiwatch.others.Xpandable
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:orientation="vertical">
@@ -1207,7 +1207,7 @@
                     app:showText="false"
                     app:thumbTint="@color/button_switch_track"
                     tools:ignore="VisualLintButtonSize" />
-            </ani.dantotsu.others.Xpandable>
+            </com.amiwatch.others.Xpandable>
 
             <TextView
                 android:layout_width="match_parent"

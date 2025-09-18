@@ -28,20 +28,20 @@
         </item>
     </style>
 
-    <style name="Theme.Dantotsu.NoActionBar">
+    <style name="Theme.Amiwatch.NoActionBar">
         <item name="windowActionBar">false</item>
         <item name="windowNoTitle">true</item>
     </style>
 
-    <style name="Theme.Dantotsu.AppBarOverlay" parent="Theme.Dantotsu" />
+    <style name="Theme.Amiwatch.AppBarOverlay" parent="Theme.Amiwatch" />
 
-    <style name="Theme.Dantotsu.PopupOverlay" parent="Theme.Dantotsu" />
+    <style name="Theme.Amiwatch.PopupOverlay" parent="Theme.Amiwatch" />
 
-    <style name="Theme.Dantotsu.NeverCutout" parent="@style/Theme.Dantotsu.NoActionBar">
+    <style name="Theme.Amiwatch.NeverCutout" parent="@style/Theme.Amiwatch.NoActionBar">
         <item name="android:navigationBarColor">?android:colorBackground</item>
     </style>
 
-    <style name="Theme.Dantotsu.ALLBLACK" parent="Theme.Base">
+    <style name="Theme.Amiwatch.ALLBLACK" parent="Theme.Base">
         <item name="colorPrimary">@color/bg_black</item>
         <item name="colorOnPrimary">@color/bg_black</item>
         <item name="colorPrimaryContainer">@color/bg_black</item>
@@ -70,7 +70,7 @@
         <item name="colorPrimaryInverse">@color/bg_black</item>
     </style>
 
-    <style name="Theme.Dantotsu.Blue" parent="Theme.Base">
+    <style name="Theme.Amiwatch.Blue" parent="Theme.Base">
         <item name="colorPrimary">@color/md_theme_light_1_primary</item>
         <item name="colorOnPrimary">@color/md_theme_light_1_onPrimary</item>
         <item name="colorPrimaryContainer">@color/md_theme_light_1_primaryContainer</item>
@@ -99,7 +99,7 @@
         <item name="colorPrimaryInverse">@color/md_theme_light_1_inversePrimary</item>
     </style>
 
-    <style name="Theme.Dantotsu.Green" parent="Theme.Base">
+    <style name="Theme.Amiwatch.Green" parent="Theme.Base">
         <item name="colorPrimary">@color/md_theme_light_2_primary</item>
         <item name="colorOnPrimary">@color/md_theme_light_2_onPrimary</item>
         <item name="colorPrimaryContainer">@color/md_theme_light_2_primaryContainer</item>
@@ -128,7 +128,7 @@
         <item name="colorPrimaryInverse">@color/md_theme_light_2_inversePrimary</item>
     </style>
 
-    <style name="Theme.Dantotsu.Purple" parent="Theme.Base">
+    <style name="Theme.Amiwatch.Purple" parent="Theme.Base">
         <item name="colorPrimary">@color/md_theme_light_3_primary</item>
         <item name="colorOnPrimary">@color/md_theme_light_3_onPrimary</item>
         <item name="colorPrimaryContainer">@color/md_theme_light_3_primaryContainer</item>
@@ -157,7 +157,7 @@
         <item name="colorPrimaryInverse">@color/md_theme_light_3_inversePrimary</item>
     </style>
 
-    <style name="Theme.Dantotsu.Pink" parent="Theme.Base">
+    <style name="Theme.Amiwatch.Pink" parent="Theme.Base">
         <item name="colorPrimary">@color/md_theme_light_4_primary</item>
         <item name="colorOnPrimary">@color/md_theme_light_4_onPrimary</item>
         <item name="colorPrimaryContainer">@color/md_theme_light_4_primaryContainer</item>
@@ -186,7 +186,7 @@
         <item name="colorPrimaryInverse">@color/md_theme_light_4_inversePrimary</item>
     </style>
 
-    <style name="Theme.Dantotsu.Saikou" parent="Theme.Base">
+    <style name="Theme.Amiwatch.Saikou" parent="Theme.Base">
         <item name="colorPrimary">@color/md_theme_light_5_primary</item>
         <item name="colorOnPrimary">@color/md_theme_light_5_onPrimary</item>
         <item name="colorPrimaryContainer">@color/md_theme_light_5_primaryContainer</item>
@@ -215,7 +215,7 @@
         <item name="colorPrimaryInverse">@color/md_theme_light_5_inversePrimary</item>
     </style>
 
-    <style name="Theme.Dantotsu.Red" parent="Theme.Base">
+    <style name="Theme.Amiwatch.Red" parent="Theme.Base">
         <item name="colorPrimary">@color/md_theme_light_6_primary</item>
         <item name="colorOnPrimary">@color/md_theme_light_6_onPrimary</item>
         <item name="colorPrimaryContainer">@color/md_theme_light_6_primaryContainer</item>
@@ -244,7 +244,7 @@
         <item name="colorPrimaryInverse">@color/md_theme_light_6_inversePrimary</item>
     </style>
 
-    <style name="Theme.Dantotsu.Lavender" parent="Theme.Base">
+    <style name="Theme.Amiwatch.Lavender" parent="Theme.Base">
         <item name="colorPrimary">@color/md_theme_light_7_primary</item>
         <item name="colorOnPrimary">@color/md_theme_light_7_onPrimary</item>
         <item name="colorPrimaryContainer">@color/md_theme_light_7_primaryContainer</item>
@@ -273,7 +273,7 @@
         <item name="colorPrimaryInverse">@color/md_theme_light_7_inversePrimary</item>
     </style>
 
-    <style name="Theme.Dantotsu.Ocean" parent="Theme.Base">
+    <style name="Theme.Amiwatch.Ocean" parent="Theme.Base">
         <item name="colorPrimary">@color/md_theme_light_8_primary</item>
         <item name="colorOnPrimary">@color/md_theme_light_8_onPrimary</item>
         <item name="colorPrimaryContainer">@color/md_theme_light_8_primaryContainer</item>
@@ -302,7 +302,7 @@
         <item name="colorPrimaryInverse">@color/md_theme_light_8_inversePrimary</item>
     </style>
 
-    <style name="Theme.Dantotsu.Oriax" parent="Theme.Base">
+    <style name="Theme.Amiwatch.Oriax" parent="Theme.Base">
         <item name="colorPrimary">@color/md_theme_light_9_primary</item>
         <item name="colorOnPrimary">@color/md_theme_light_9_onPrimary</item>
         <item name="colorPrimaryContainer">@color/md_theme_light_9_primaryContainer</item>
@@ -331,7 +331,7 @@
         <item name="colorPrimaryInverse">@color/md_theme_light_9_inversePrimary</item>
     </style>
 
-    <style name="Theme.Dantotsu.Monochrome" parent="Theme.Base">
+    <style name="Theme.Amiwatch.Monochrome" parent="Theme.Base">
         <item name="colorPrimary">@color/bg_black</item>
         <item name="colorOnPrimary">@color/bg_white</item>
         <item name="colorPrimaryContainer">@color/bg_black</item>
@@ -360,7 +360,7 @@
         <item name="colorPrimaryInverse">@color/bg_white</item>
     </style>
 
-    <style name="Theme.Dantotsu.AppWidgetContainerParent" parent="@android:style/Theme.DeviceDefault">
+    <style name="Theme.Amiwatch.AppWidgetContainerParent" parent="@android:style/Theme.DeviceDefault">
         <!-- Radius of the outer bound of widgets to make the rounded corners -->
         <item name="appWidgetRadius">16dp</item>
         <!--
@@ -370,7 +370,7 @@
         <item name="appWidgetInnerRadius">8dp</item>
     </style>
 
-    <style name="Theme.Dantotsu.AppWidgetContainer" parent="Theme.Dantotsu.AppWidgetContainerParent">
+    <style name="Theme.Amiwatch.AppWidgetContainer" parent="Theme.Amiwatch.AppWidgetContainerParent">
         <!-- Apply padding to avoid the content of the widget colliding with the rounded corners -->
         <item name="appWidgetPadding">16dp</item>
     </style>

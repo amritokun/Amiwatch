@@ -5,11 +5,11 @@ import android.os.Bundle
 import androidx.activity.result.ActivityResult
 import androidx.activity.result.contract.ActivityResultContracts
 import androidx.appcompat.app.AppCompatActivity
-import ani.dantotsu.addons.download.DownloadAddonManager
-import ani.dantotsu.addons.torrent.TorrentAddonManager
-import ani.dantotsu.media.AddonType
-import ani.dantotsu.media.MediaType
-import ani.dantotsu.parsers.novel.NovelExtensionManager
+import com.amiwatch.addons.download.DownloadAddonManager
+import com.amiwatch.addons.torrent.TorrentAddonManager
+import com.amiwatch.media.AddonType
+import com.amiwatch.media.MediaType
+import com.amiwatch.parsers.novel.NovelExtensionManager
 import eu.kanade.tachiyomi.extension.InstallStep
 import eu.kanade.tachiyomi.extension.anime.AnimeExtensionManager
 import eu.kanade.tachiyomi.extension.manga.MangaExtensionManager

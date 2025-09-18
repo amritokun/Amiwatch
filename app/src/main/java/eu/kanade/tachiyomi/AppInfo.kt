@@ -13,7 +13,7 @@ object AppInfo {
      *
      * @since extension-lib 1.3
      */
-    fun getVersionCode(): Int = ani.dantotsu.BuildConfig.VERSION_CODE
+    fun getVersionCode(): Int = com.amiwatch.BuildConfig.VERSION_CODE
 
     /**
      * Version name of the host application. May be useful for sharing as User-Agent information.
@@ -21,7 +21,7 @@ object AppInfo {
      *
      * @since extension-lib 1.3
      */
-    fun getVersionName(): String = ani.dantotsu.BuildConfig.VERSION_NAME
+    fun getVersionName(): String = com.amiwatch.BuildConfig.VERSION_NAME
 
     /**
      * A list of supported image MIME types by the reader.

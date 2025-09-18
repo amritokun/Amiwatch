@@ -77,7 +77,7 @@
             android:visibility="visible"
             tools:visibility="gone" />
 
-        <ani.dantotsu.FadingEdgeRecyclerView
+        <com.amiwatch.FadingEdgeRecyclerView
             android:id="@+id/searchRecyclerView"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"

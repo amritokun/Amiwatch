@@ -4,7 +4,7 @@ import android.app.PendingIntent
 import android.content.BroadcastReceiver
 import android.content.Context
 import android.content.Intent
-import ani.dantotsu.MainActivity
+import com.amiwatch.MainActivity
 import eu.kanade.tachiyomi.core.Constants
 
 /**

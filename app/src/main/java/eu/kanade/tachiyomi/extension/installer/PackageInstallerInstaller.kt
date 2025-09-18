@@ -10,10 +10,10 @@ import android.content.pm.PackageInstaller
 import android.os.Build
 import androidx.core.content.ContextCompat
 import androidx.core.content.IntentSanitizer
-import ani.dantotsu.R
-import ani.dantotsu.snackString
-import ani.dantotsu.toast
-import ani.dantotsu.util.Logger
+import com.amiwatch.R
+import com.amiwatch.snackString
+import com.amiwatch.toast
+import com.amiwatch.util.Logger
 import eu.kanade.tachiyomi.extension.InstallStep
 import eu.kanade.tachiyomi.util.lang.use
 import eu.kanade.tachiyomi.util.system.getParcelableExtraCompat

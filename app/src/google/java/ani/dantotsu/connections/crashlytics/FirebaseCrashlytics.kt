@@ -1,4 +1,4 @@
-package ani.dantotsu.connections.crashlytics
+package com.amiwatch.connections.crashlytics
 
 import android.content.Context
 import com.google.firebase.FirebaseApp

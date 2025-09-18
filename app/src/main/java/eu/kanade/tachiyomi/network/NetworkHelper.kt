@@ -2,10 +2,10 @@ package eu.kanade.tachiyomi.network
 
 import android.content.Context
 import android.os.Build
-import ani.dantotsu.Mapper
-import ani.dantotsu.settings.saving.PrefManager
-import ani.dantotsu.settings.saving.PrefName
-import ani.dantotsu.util.Logger
+import com.amiwatch.Mapper
+import com.amiwatch.settings.saving.PrefManager
+import com.amiwatch.settings.saving.PrefName
+import com.amiwatch.util.Logger
 import com.lagradost.nicehttp.Requests
 import eu.kanade.tachiyomi.network.interceptor.CloudflareInterceptor
 import eu.kanade.tachiyomi.network.interceptor.IgnoreGzipInterceptor

@@ -7,11 +7,11 @@ import android.content.pm.ServiceInfo
 import android.net.Uri
 import android.os.Build
 import android.os.IBinder
-import ani.dantotsu.R
-import ani.dantotsu.media.AddonType
-import ani.dantotsu.media.MediaType
-import ani.dantotsu.media.Type
-import ani.dantotsu.util.Logger
+import com.amiwatch.R
+import com.amiwatch.media.AddonType
+import com.amiwatch.media.MediaType
+import com.amiwatch.media.Type
+import com.amiwatch.util.Logger
 import eu.kanade.domain.base.BasePreferences
 import eu.kanade.tachiyomi.data.notification.Notifications
 import eu.kanade.tachiyomi.extension.installer.Installer

@@ -43,8 +43,8 @@
     public static <1> INSTANCE;
     kotlinx.serialization.KSerializer serializer(...);
 }
--keep class ani.dantotsu.** { *; }
--keep class ani.dantotsu.download.DownloadsManager { *; }
+-keep class com.amiwatch.** { *; }
+-keep class com.amiwatch.download.DownloadsManager { *; }
 -keepattributes Signature
 -keep class uy.kohesive.injekt.** { *; }
 -keep class eu.kanade.tachiyomi.** { *; }

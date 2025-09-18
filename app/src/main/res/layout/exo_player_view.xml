@@ -55,7 +55,7 @@
 
     </androidx.media3.ui.SubtitleView>
 
-    <ani.dantotsu.others.Xubtitle
+    <com.amiwatch.others.Xubtitle
         android:id="@+id/customSubtitleView"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"

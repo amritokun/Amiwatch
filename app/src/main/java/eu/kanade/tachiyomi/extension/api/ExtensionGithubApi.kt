@@ -1,11 +1,11 @@
 package eu.kanade.tachiyomi.extension.api
 
-import ani.dantotsu.asyncMap
-import ani.dantotsu.parsers.novel.AvailableNovelSources
-import ani.dantotsu.parsers.novel.NovelExtension
-import ani.dantotsu.settings.saving.PrefManager
-import ani.dantotsu.settings.saving.PrefName
-import ani.dantotsu.util.Logger
+import com.amiwatch.asyncMap
+import com.amiwatch.parsers.novel.AvailableNovelSources
+import com.amiwatch.parsers.novel.NovelExtension
+import com.amiwatch.settings.saving.PrefManager
+import com.amiwatch.settings.saving.PrefName
+import com.amiwatch.util.Logger
 import eu.kanade.tachiyomi.extension.anime.model.AnimeExtension
 import eu.kanade.tachiyomi.extension.anime.model.AvailableAnimeSources
 import eu.kanade.tachiyomi.extension.manga.model.AvailableMangaSources

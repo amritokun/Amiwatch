@@ -1,4 +1,4 @@
-package ani.dantotsu.others
+package com.amiwatch.others
 
 import androidx.fragment.app.FragmentActivity
 import kotlinx.serialization.SerialName

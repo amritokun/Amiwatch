@@ -47,7 +47,7 @@ jobs:
         # Accumulate commit logs in a shell variable
         COMMIT_LOGS=$(git log $LAST_SHA..HEAD --pretty=format:"● %s ~%an [֍](https://github.com/${{ github.repository }}/commit/%H)" --max-count=10)
         # Replace commit messages with pull request links
-        COMMIT_LOGS=$(echo "$COMMIT_LOGS" | sed -E 's/#([0-9]+)/[#\1](https:\/\/github.com\/rebelonion\/Dantotsu\/pull\/\1)/g')
+        COMMIT_LOGS=$(echo "$COMMIT_LOGS" | sed -E 's/#([0-9]+)/[#\1](https:\/\/github.com\/rebelonion\/Amiwatch\/pull\/\1)/g')
         # URL-encode the newline characters for GitHub Actions
         COMMIT_LOGS="${COMMIT_LOGS//'%'/'%25'}"
         COMMIT_LOGS="${COMMIT_LOGS//$'\n'/'%0A'}"
@@ -89,7 +89,7 @@ jobs:
         cache: gradle
 
     - name: Decode Keystore File
-      if: ${{ github.repository == 'rebelonion/Dantotsu' }}
+      if: ${{ github.repository == 'rebelonion/Amiwatch' }}
       run: echo "${{ secrets.KEYSTORE_FILE }}" | base64 -d > $GITHUB_WORKSPACE/key.keystore
 
     - name: Make gradlew executable
@@ -99,7 +99,7 @@ jobs:
     - name: Build with Gradle
       if: ${{ env.SKIP_BUILD != 'true' }}
       run: |
-        if [ "${{ github.repository }}" == "rebelonion/Dantotsu" ]; then
+        if [ "${{ github.repository }}" == "rebelonion/Amiwatch" ]; then
           ./gradlew assembleGoogleAlpha \
             -Pandroid.injected.signing.store.file=$GITHUB_WORKSPACE/key.keystore \
             -Pandroid.injected.signing.store.password=${{ secrets.KEYSTORE_PASSWORD }} \
@@ -113,13 +113,13 @@ jobs:
       if: ${{ env.SKIP_BUILD != 'true' }}
       uses: actions/upload-artifact@v4
       with:
-          name: Dantotsu
+          name: Amiwatch
           retention-days: 5
           compression-level: 9
           path: "app/build/outputs/apk/google/alpha/app-google-alpha.apk"
 
     - name: Upload APK to Discord and Telegram
-      if: ${{ github.repository == 'rebelonion/Dantotsu' }}
+      if: ${{ github.repository == 'rebelonion/Amiwatch' }}
       shell: bash
       run: |
         # Prepare Discord embed

@@ -2,7 +2,7 @@ package eu.kanade.tachiyomi.util.system
 
 import android.annotation.SuppressLint
 import android.os.Build
-import ani.dantotsu.util.Logger
+import com.amiwatch.util.Logger
 
 object DeviceUtil {
 

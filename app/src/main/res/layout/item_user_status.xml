@@ -28,12 +28,12 @@
                 tools:tint="@color/transparent" />
 
         </com.google.android.material.card.MaterialCardView>
-        <ani.dantotsu.home.status.CircleView
+        <com.amiwatch.home.status.CircleView
             android:id="@+id/profileUserStatusIndicator"
             android:layout_width="78dp"
             android:layout_height="78dp">
 
-        </ani.dantotsu.home.status.CircleView>
+        </com.amiwatch.home.status.CircleView>
     </FrameLayout>
 
     <TextView

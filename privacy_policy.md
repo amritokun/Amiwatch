@@ -3,7 +3,7 @@
 Last Updated: Dec 30, 2024
 
 ## Introduction
-This Privacy Policy describes how we collect, use, and handle your information when you use Dantotsu. We are committed to protecting your privacy and ensuring transparency about our data practices.
+This Privacy Policy describes how we collect, use, and handle your information when you use Amiwatch. We are committed to protecting your privacy and ensuring transparency about our data practices.
 
 ## Information We Collect
 
@@ -19,10 +19,10 @@ We use Firebase Crashlytics to collect crash reports and technical information a
 
 Crash reports are associated with your AniList username to allow us to contact you if we need additional information about a specific issue. However, you can choose to anonymize your crash reports through the app settings, which will remove your AniList username from the reports.
 
-Firebase Analytics collects anonymous usage data, including country-level geolocation information. This helps us understand how Dantotsu is being used across different regions.
+Firebase Analytics collects anonymous usage data, including country-level geolocation information. This helps us understand how Amiwatch is being used across different regions.
 
 ### Third-Party Authentication and Integration
-Dantotsu allows you to authenticate with the following third-party services:
+Amiwatch allows you to authenticate with the following third-party services:
 - AniList
 - MyAnimeList
 - Discord
@@ -31,7 +31,7 @@ When using Discord Rich Presence (RPC) functionality, the app will share your cu
 - The series you are watching
 - The current episode number
 
-This information is only shared while you are actively using Dantotsu and have Discord RPC enabled.
+This information is only shared while you are actively using Amiwatch and have Discord RPC enabled.
 
 While we facilitate these connections, we do not store your login credentials. Authentication tokens are stored securely on your device only. Please note that these third-party services may collect additional information according to their own privacy policies, which we encourage you to review:
 - [AniList Privacy Policy Link](https://anilist.co/terms)
@@ -39,7 +39,7 @@ While we facilitate these connections, we do not store your login credentials. A
 - [Discord Privacy Policy Link](https://discord.com/privacy)
 
 ### Comments System
-Our in-house comments API uses your AniList authentication token for verification purposes when you initially open Dantotsu. While this token is used for authentication, it is never stored on our servers. We only store:
+Our in-house comments API uses your AniList authentication token for verification purposes when you initially open Amiwatch. While this token is used for authentication, it is never stored on our servers. We only store:
 - Your AniList ID (for authentication)
 - Profile picture URL
 - Comments you post
@@ -101,6 +101,6 @@ We may update this Privacy Policy from time to time. We will notify you of any c
 
 ## Contact Us
 If you have any questions about this Privacy Policy, please contact us via:
-- GitHub: [Dantotsu Issues](https://github.com/rebelonion/Dantotsu/issues)
+- GitHub: [Amiwatch Issues](https://github.com/amritokun/Amiwatch/issues)
 - Discord: "@rebelonion"
 - AniList: "rebelonion"
