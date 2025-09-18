@@ -24,8 +24,8 @@ import ani.saikou.connections.mal.MAL
 import ani.saikou.databinding.ActivitySettingsBinding
 import ani.saikou.others.AppUpdater
 import ani.saikou.others.CustomBottomDialog
-import ani.saikou.parsers.AnimeSources
-import ani.saikou.parsers.MangaSources
+import ani.saikou.parsers.anime.AnimeSources
+import ani.saikou.parsers.manga.MangaSources
 import ani.saikou.subcriptions.Notifications
 import ani.saikou.subcriptions.Notifications.Companion.openSettings
 import ani.saikou.subcriptions.Subscription.Companion.defaultTime
@@ -281,7 +281,7 @@ OS Version: $CODENAME $RELEASE ($SDK_INT)
             lifecycleScope.launch {
                 it.pop()
             }
-            openLinkInBrowser("https://www.buymeacoffee.com/brahmkshatriya")
+            openLinkInBrowser("https://ko-fi.com/brahmkshatriya")
         }
         lifecycleScope.launch {
             binding.settingBuyMeCoffee.pop()

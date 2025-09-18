@@ -33,9 +33,9 @@ import ani.saikou.media.MediaDetailsViewModel
 import ani.saikou.media.manga.MangaChapter
 import ani.saikou.others.ImageViewDialog
 import ani.saikou.others.getSerialized
-import ani.saikou.parsers.HMangaSources
-import ani.saikou.parsers.MangaImage
-import ani.saikou.parsers.MangaSources
+import ani.saikou.parsers.manga.HMangaSources
+import ani.saikou.parsers.manga.MangaImage
+import ani.saikou.parsers.manga.MangaSources
 import ani.saikou.settings.CurrentReaderSettings.Companion.applyWebtoon
 import ani.saikou.settings.CurrentReaderSettings.Directions.*
 import ani.saikou.settings.CurrentReaderSettings.DualPageModes.*

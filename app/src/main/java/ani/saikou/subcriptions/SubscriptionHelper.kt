@@ -5,10 +5,17 @@ import ani.saikou.currContext
 import ani.saikou.loadData
 import ani.saikou.media.Media
 import ani.saikou.media.Selected
-import ani.saikou.parsers.*
 import ani.saikou.saveData
 import ani.saikou.tryWithSuspend
 import ani.saikou.R
+import ani.saikou.parsers.anime.AnimeParser
+import ani.saikou.parsers.anime.AnimeSources
+import ani.saikou.parsers.anime.Episode
+import ani.saikou.parsers.anime.HAnimeSources
+import ani.saikou.parsers.manga.HMangaSources
+import ani.saikou.parsers.manga.MangaChapter
+import ani.saikou.parsers.manga.MangaParser
+import ani.saikou.parsers.manga.MangaSources
 import kotlinx.coroutines.withTimeoutOrNull
 
 class SubscriptionHelper {

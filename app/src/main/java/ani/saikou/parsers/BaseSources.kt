@@ -4,6 +4,9 @@ import ani.saikou.Lazier
 import ani.saikou.media.anime.Episode
 import ani.saikou.media.manga.MangaChapter
 import ani.saikou.media.Media
+import ani.saikou.parsers.anime.AnimeParser
+import ani.saikou.parsers.manga.MangaParser
+import ani.saikou.parsers.novel.NovelParser
 import ani.saikou.tryWithSuspend
 
 abstract class WatchSources : BaseSources() {

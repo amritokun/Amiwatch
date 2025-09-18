@@ -16,12 +16,12 @@ import ani.saikou.media.manga.MangaChapter
 import ani.saikou.others.AniSkip
 import ani.saikou.others.Jikan
 import ani.saikou.others.Kitsu
-import ani.saikou.parsers.Book
-import ani.saikou.parsers.MangaImage
+import ani.saikou.parsers.novel.Book
+import ani.saikou.parsers.manga.MangaImage
 import ani.saikou.parsers.MangaReadSources
-import ani.saikou.parsers.NovelSources
+import ani.saikou.parsers.novel.NovelSources
 import ani.saikou.parsers.ShowResponse
-import ani.saikou.parsers.VideoExtractor
+import ani.saikou.parsers.anime.VideoExtractor
 import ani.saikou.parsers.WatchSources
 import ani.saikou.saveData
 import ani.saikou.snackString

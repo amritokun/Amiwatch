@@ -11,20 +11,11 @@ data class FuzzyDate(
     @SerialName("month") val month: Int? = null,
     @SerialName("day") val day: Int? = null,
 ) : Serializable, Comparable<FuzzyDate> {
-
-
-    fun isEmpty(): Boolean {
-        return year == null && month == null && day == null
-    }
     override fun toString(): String {
-        return if ( isEmpty() ) "??" else toStringOrEmpty()
-    }
-    fun toStringOrEmpty(): String {
-        return listOfNotNull(
-            day?.toString(),
-            month?.let { DateFormatSymbols().months.elementAt(it - 1) },
-            year?.toString()
-        ).joinToString(" ")
+        if (day == null && year == null && month == null)
+            return "??"
+        val a = if (month != null) DateFormatSymbols().months[month - 1] else ""
+        return (if (day != null) "$day " else "") + a + (if (year != null) ", $year" else "")
     }
 
     fun getToday(): FuzzyDate {
@@ -33,20 +24,21 @@ data class FuzzyDate(
     }
 
     fun toVariableString(): String {
-        return listOfNotNull(
-            year?.let {"year:$it"},
-            month?.let {"month:$it"},
-            day?.let {"day:$it"}
-        ).joinToString(",", "{", "}")
+        return ("{"
+                + (if (year != null) "year:$year" else "")
+                + (if (month != null) ",month:$month" else "")
+                + (if (day != null) ",day:$day" else "")
+                + "}")
     }
-    fun toMALString(): String {
-        val padding = '0'
-        val values = listOf(
-            year?.toString()?.padStart(4, padding),
-            month?.toString()?.padStart(2, padding),
-            day?.toString()?.padStart(2, padding)
-        )
-        return values.takeWhile {it is String}.joinToString("-")
+
+    fun toISOString(): String {
+        return "${
+            year.toString().padStart(4, '0')
+        }-${
+            month.toString().padStart(2, '0')
+        }-${
+            day.toString().padStart(2, '0')
+        }"
     }
 
 //    fun toInt(): Int {

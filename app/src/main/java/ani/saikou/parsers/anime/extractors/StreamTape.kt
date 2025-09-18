@@ -3,7 +3,11 @@ package ani.saikou.parsers.anime.extractors
 import ani.saikou.FileUrl
 import ani.saikou.client
 import ani.saikou.getSize
-import ani.saikou.parsers.*
+import ani.saikou.parsers.anime.Video
+import ani.saikou.parsers.anime.VideoContainer
+import ani.saikou.parsers.anime.VideoExtractor
+import ani.saikou.parsers.anime.VideoServer
+import ani.saikou.parsers.anime.VideoType
 
 class StreamTape(override val server: VideoServer) : VideoExtractor() {
     private val linkRegex = Regex("""'robotlink'\)\.innerHTML = '(.+?)'\+ \('(.+?)'\)""")

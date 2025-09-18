@@ -15,7 +15,7 @@ import ani.saikou.databinding.BottomSheetSubtitlesBinding
 import ani.saikou.databinding.ItemSubtitleTextBinding
 import ani.saikou.loadData
 import ani.saikou.media.MediaDetailsViewModel
-import ani.saikou.parsers.Subtitle
+import ani.saikou.parsers.anime.Subtitle
 import ani.saikou.saveData
 
 class SubtitleDialogFragment : BottomSheetDialogFragment() {

@@ -24,10 +24,10 @@ import ani.saikou.R
 import ani.saikou.defaultHeaders
 import ani.saikou.logError
 import ani.saikou.okHttpClient
-import ani.saikou.parsers.Subtitle
-import ani.saikou.parsers.SubtitleType
-import ani.saikou.parsers.Video
-import ani.saikou.parsers.VideoType
+import ani.saikou.parsers.anime.Subtitle
+import ani.saikou.parsers.anime.SubtitleType
+import ani.saikou.parsers.anime.Video
+import ani.saikou.parsers.anime.VideoType
 import java.io.File
 import java.io.IOException
 import java.util.concurrent.*

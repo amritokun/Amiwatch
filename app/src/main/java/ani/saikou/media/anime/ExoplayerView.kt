@@ -71,6 +71,13 @@ import ani.saikou.others.Download.download
 import ani.saikou.others.ResettableTimer
 import ani.saikou.others.getSerialized
 import ani.saikou.parsers.*
+import ani.saikou.parsers.anime.AnimeSources
+import ani.saikou.parsers.anime.HAnimeSources
+import ani.saikou.parsers.anime.Subtitle
+import ani.saikou.parsers.anime.SubtitleType
+import ani.saikou.parsers.anime.Video
+import ani.saikou.parsers.anime.VideoExtractor
+import ani.saikou.parsers.anime.VideoType
 import ani.saikou.settings.PlayerSettings
 import ani.saikou.settings.PlayerSettingsActivity
 import ani.saikou.settings.UserInterfaceSettings

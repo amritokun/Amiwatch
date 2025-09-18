@@ -17,10 +17,10 @@ import ani.saikou.media.anime.AnimeSourceAdapter
 import ani.saikou.databinding.BottomSheetSourceSearchBinding
 import ani.saikou.media.manga.MangaSourceAdapter
 import ani.saikou.navBarHeight
-import ani.saikou.parsers.AnimeSources
-import ani.saikou.parsers.HAnimeSources
-import ani.saikou.parsers.HMangaSources
-import ani.saikou.parsers.MangaSources
+import ani.saikou.parsers.anime.AnimeSources
+import ani.saikou.parsers.anime.HAnimeSources
+import ani.saikou.parsers.manga.HMangaSources
+import ani.saikou.parsers.manga.MangaSources
 import ani.saikou.px
 import ani.saikou.tryWithSuspend
 import kotlinx.coroutines.Dispatchers

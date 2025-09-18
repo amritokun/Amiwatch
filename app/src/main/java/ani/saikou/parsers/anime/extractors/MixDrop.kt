@@ -4,7 +4,11 @@ import ani.saikou.FileUrl
 import ani.saikou.client
 import ani.saikou.getSize
 import ani.saikou.others.JsUnpacker
-import ani.saikou.parsers.*
+import ani.saikou.parsers.anime.Video
+import ani.saikou.parsers.anime.VideoContainer
+import ani.saikou.parsers.anime.VideoExtractor
+import ani.saikou.parsers.anime.VideoServer
+import ani.saikou.parsers.anime.VideoType
 
 //https://github.com/recloudstream/cloudstream/blob/master/app/src/main/java/com/lagradost/cloudstream3/extractors/MixDrop.kt
 

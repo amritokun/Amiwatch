@@ -55,7 +55,7 @@ class OutlineTextView : AppCompatTextView {
         strokeWidth = width.toPx(context)
     }
 
-    private fun Float.toPx(context: Context) = (this * context.resources.displayMetrics.scaledDensity + 0.5F)
+    private fun Float.toPx(context: Context) = (this * context.resources.displayMetrics.density + 0.5F)
 
     override fun invalidate() {
         if (isDrawing) return

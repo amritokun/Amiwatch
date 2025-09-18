@@ -10,7 +10,7 @@ import ani.saikou.FileUrl
 import ani.saikou.copyToClipboard
 import ani.saikou.databinding.ItemUrlBinding
 import ani.saikou.others.Download.download
-import ani.saikou.parsers.Book
+import ani.saikou.parsers.novel.Book
 import ani.saikou.setSafeOnClickListener
 import ani.saikou.tryWith
 

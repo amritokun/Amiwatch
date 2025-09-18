@@ -16,7 +16,7 @@ import ani.saikou.media.anime.Episode
 import ani.saikou.currContext
 import ani.saikou.defaultHeaders
 import ani.saikou.loadData
-import ani.saikou.parsers.Book
+import ani.saikou.parsers.novel.Book
 import ani.saikou.toast
 import kotlinx.coroutines.CoroutineScope
 import kotlinx.coroutines.Dispatchers
@@ -64,7 +64,7 @@ object Download {
         download(context, file, fileName, folder, notif)
     }
 
-    fun download(context: Context, book:Book, pos:Int, novelTitle:String){
+    fun download(context: Context, book: Book, pos:Int, novelTitle:String){
         toast(currContext()?.getString(R.string.downloading))
         val regex = "[\\\\/:*?\"<>|]".toRegex()
         val nTitle = novelTitle.replace(regex, "")

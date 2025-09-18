@@ -21,8 +21,8 @@ import ani.saikou.databinding.ItemUrlBinding
 import ani.saikou.media.Media
 import ani.saikou.media.MediaDetailsViewModel
 import ani.saikou.others.Download.download
-import ani.saikou.parsers.VideoExtractor
-import ani.saikou.parsers.VideoType
+import ani.saikou.parsers.anime.VideoExtractor
+import ani.saikou.parsers.anime.VideoType
 import kotlinx.coroutines.CoroutineScope
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.launch

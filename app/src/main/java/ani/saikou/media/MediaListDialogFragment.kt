@@ -94,7 +94,7 @@ class MediaListDialogFragment : BottomSheetDialogFragment() {
 
                 val start = DatePickerFragment(requireActivity(), media!!.userStartedAt)
                 val end = DatePickerFragment(requireActivity(), media!!.userCompletedAt)
-                binding.mediaListStart.setText(media!!.userStartedAt.toStringOrEmpty())
+                binding.mediaListStart.setText((if (media!!.userStartedAt.year != null) media!!.userStartedAt else "").toString())
                 binding.mediaListStart.setOnClickListener {
                     tryWith(false) {
                         if (!start.dialog.isShowing) start.dialog.show()
@@ -105,7 +105,7 @@ class MediaListDialogFragment : BottomSheetDialogFragment() {
                         if (b && !start.dialog.isShowing) start.dialog.show()
                     }
                 }
-                binding.mediaListEnd.setText(media!!.userCompletedAt.toStringOrEmpty())
+                binding.mediaListEnd.setText((if (media!!.userCompletedAt.year != null) media!!.userCompletedAt else "").toString())
                 binding.mediaListEnd.setOnClickListener {
                     tryWith(false) {
                         if (!end.dialog.isShowing) end.dialog.show()
@@ -116,8 +116,8 @@ class MediaListDialogFragment : BottomSheetDialogFragment() {
                         if (b && !end.dialog.isShowing) end.dialog.show()
                     }
                 }
-                start.dialog.setOnDismissListener { _binding?.mediaListStart?.setText(start.date.toStringOrEmpty()) }
-                end.dialog.setOnDismissListener { _binding?.mediaListEnd?.setText(end.date.toStringOrEmpty()) }
+                start.dialog.setOnDismissListener { _binding?.mediaListStart?.setText((if (start.date.year != null) start.date else "").toString()) }
+                end.dialog.setOnDismissListener { _binding?.mediaListEnd?.setText((if (end.date.year != null) end.date else "").toString()) }
 
 
                 fun onComplete() {

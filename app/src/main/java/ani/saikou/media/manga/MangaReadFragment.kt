@@ -18,9 +18,9 @@ import ani.saikou.databinding.FragmentAnimeWatchBinding
 import ani.saikou.media.manga.mangareader.ChapterLoaderDialog
 import ani.saikou.media.Media
 import ani.saikou.media.MediaDetailsViewModel
-import ani.saikou.parsers.HMangaSources
-import ani.saikou.parsers.MangaParser
-import ani.saikou.parsers.MangaSources
+import ani.saikou.parsers.manga.HMangaSources
+import ani.saikou.parsers.manga.MangaParser
+import ani.saikou.parsers.manga.MangaSources
 import ani.saikou.settings.UserInterfaceSettings
 import ani.saikou.subcriptions.Notifications
 import ani.saikou.subcriptions.Notifications.Group.MANGA_GROUP

@@ -15,7 +15,7 @@ import ani.saikou.*
 import ani.saikou.databinding.ActivityPlayerSettingsBinding
 import ani.saikou.media.Media
 import ani.saikou.others.getSerialized
-import ani.saikou.parsers.Subtitle
+import ani.saikou.parsers.anime.Subtitle
 import com.google.android.material.snackbar.Snackbar
 import kotlin.math.roundToInt
 
@@ -25,7 +25,7 @@ class PlayerSettingsActivity : AppCompatActivity() {
     private val player = "player_settings"
 
     var media:Media?=null
-    var subtitle:Subtitle?=null
+    var subtitle: Subtitle?=null
 
 
     override fun onCreate(savedInstanceState: Bundle?) {

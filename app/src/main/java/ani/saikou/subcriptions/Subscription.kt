@@ -6,8 +6,8 @@ import android.content.Context
 import androidx.core.app.NotificationCompat
 import androidx.core.app.NotificationManagerCompat
 import ani.saikou.*
-import ani.saikou.parsers.Episode
-import ani.saikou.parsers.MangaChapter
+import ani.saikou.parsers.anime.Episode
+import ani.saikou.parsers.manga.MangaChapter
 import kotlinx.coroutines.CoroutineScope
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.delay

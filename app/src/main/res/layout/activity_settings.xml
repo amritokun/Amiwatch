@@ -1195,9 +1195,9 @@
 
                 <ImageView
                     android:id="@+id/settingBuyMeCoffee"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    app:srcCompat="@drawable/ic_bmc_button"
+                    android:layout_width="128dp"
+                    android:layout_height="48dp"
+                    app:srcCompat="@drawable/kofi_s_tag_dark"
                     tools:ignore="ContentDescription" />
 
                 <View

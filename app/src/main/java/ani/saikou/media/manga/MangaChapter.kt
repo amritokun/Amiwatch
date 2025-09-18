@@ -1,7 +1,7 @@
 package ani.saikou.media.manga
 
-import ani.saikou.parsers.MangaChapter
-import ani.saikou.parsers.MangaImage
+import ani.saikou.parsers.manga.MangaChapter
+import ani.saikou.parsers.manga.MangaImage
 import java.io.Serializable
 import kotlin.math.floor
 

@@ -3,11 +3,11 @@ package ani.saikou.parsers.anime.extractors
 import ani.saikou.asyncMap
 import ani.saikou.client
 import ani.saikou.getSize
-import ani.saikou.parsers.Video
-import ani.saikou.parsers.VideoContainer
-import ani.saikou.parsers.VideoExtractor
-import ani.saikou.parsers.VideoServer
-import ani.saikou.parsers.VideoType
+import ani.saikou.parsers.anime.Video
+import ani.saikou.parsers.anime.VideoContainer
+import ani.saikou.parsers.anime.VideoExtractor
+import ani.saikou.parsers.anime.VideoServer
+import ani.saikou.parsers.anime.VideoType
 import ani.saikou.tryWithSuspend
 import kotlinx.serialization.Serializable
 

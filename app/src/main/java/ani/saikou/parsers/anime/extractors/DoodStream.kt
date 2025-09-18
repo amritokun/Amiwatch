@@ -5,11 +5,11 @@ import ani.saikou.FileUrl
 import ani.saikou.client
 import ani.saikou.findBetween
 import ani.saikou.getSize
-import ani.saikou.parsers.Video
-import ani.saikou.parsers.VideoContainer
-import ani.saikou.parsers.VideoExtractor
-import ani.saikou.parsers.VideoServer
-import ani.saikou.parsers.VideoType
+import ani.saikou.parsers.anime.Video
+import ani.saikou.parsers.anime.VideoContainer
+import ani.saikou.parsers.anime.VideoExtractor
+import ani.saikou.parsers.anime.VideoServer
+import ani.saikou.parsers.anime.VideoType
 import java.util.*
 
 class DoodStream(override val server: VideoServer) : VideoExtractor() {

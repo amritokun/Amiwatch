@@ -1,7 +1,7 @@
 package ani.saikou.media.anime
 
 import ani.saikou.FileUrl
-import ani.saikou.parsers.VideoExtractor
+import ani.saikou.parsers.anime.VideoExtractor
 import java.io.Serializable
 
 data class Episode(

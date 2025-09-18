@@ -17,9 +17,9 @@ import ani.saikou.*
 import ani.saikou.databinding.FragmentAnimeWatchBinding
 import ani.saikou.media.Media
 import ani.saikou.media.MediaDetailsViewModel
-import ani.saikou.parsers.AnimeParser
-import ani.saikou.parsers.AnimeSources
-import ani.saikou.parsers.HAnimeSources
+import ani.saikou.parsers.anime.AnimeParser
+import ani.saikou.parsers.anime.AnimeSources
+import ani.saikou.parsers.anime.HAnimeSources
 import ani.saikou.settings.PlayerSettings
 import ani.saikou.settings.UserInterfaceSettings
 import ani.saikou.subcriptions.Notifications
