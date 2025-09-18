@@ -6,9 +6,10 @@
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
     android:layout_margin="8dp"
+    android:background="@drawable/card_outline"
+    android:backgroundTint="?attr/colorSurfaceVariant"
     android:backgroundTintMode="src_atop"
     android:longClickable="true"
-    app:cardBackgroundColor="@color/nav_bg"
     app:cardCornerRadius="16dp">
 
     <View
@@ -46,8 +47,8 @@
                     android:indeterminate="true" />
 
                 <ImageView
-                    android:id="@+id/itemEpisodeImage"
-                    android:layout_width="180dp"
+                    android:id="@+id/itemMediaImage"
+                    android:layout_width="164dp"
                     android:layout_height="109dp"
                     android:layout_gravity="center"
                     android:scaleType="centerCrop"
@@ -58,7 +59,7 @@
                     android:layout_height="wrap_content"
                     android:layout_marginStart="-10dp"
                     android:layout_marginTop="-18dp"
-                    app:cardBackgroundColor="@color/bg_opp"
+                    app:cardBackgroundColor="?attr/colorOnBackground"
                     app:cardCornerRadius="16dp">
 
                     <TextView
@@ -70,40 +71,52 @@
                         android:layout_marginTop="19dp"
                         android:layout_marginEnd="8dp"
                         android:fontFamily="@font/poppins_bold"
-                        android:textColor="@color/bg"
+                        android:textColor="?android:colorBackground"
                         android:textSize="20sp"
                         tools:text="12" />
                 </androidx.cardview.widget.CardView>
 
                 <LinearLayout
-                    android:id="@+id/itemEpisodeProgressCont"
-                    android:layout_width="180dp"
+                    android:id="@+id/itemMediaProgress_cont"
+                    android:layout_width="164dp"
                     android:layout_height="wrap_content"
                     android:layout_gravity="bottom"
                     android:orientation="horizontal"
                     android:visibility="gone">
 
                     <View
-                        android:id="@+id/itemEpisodeProgress"
+                        android:id="@+id/itemMediaProgress"
                         android:layout_width="0dp"
                         android:layout_height="2dp"
                         android:layout_weight="0"
-                        android:background="@color/pink_500" />
+                        android:background="?attr/colorPrimary" />
 
                     <View
-                        android:id="@+id/itemEpisodeProgressEmpty"
+                        android:id="@+id/itemMediaProgressEmpty"
                         android:layout_width="0dp"
                         android:layout_height="2dp"
                         android:layout_weight="1"
                         android:background="#80FFFFFF" />
 
                 </LinearLayout>
+
+                <ImageButton
+                    android:id="@+id/itemEpisodeViewed"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="bottom"
+                    android:layout_marginStart="8dp"
+                    android:layout_marginBottom="8dp"
+                    android:background="?android:attr/selectableItemBackground"
+                    app:srcCompat="@drawable/ic_round_remove_red_eye_24"
+                    tools:ignore="ContentDescription" />
             </androidx.cardview.widget.CardView>
 
             <LinearLayout
-                android:layout_width="match_parent"
+                android:layout_width="0dp"
                 android:layout_height="wrap_content"
-                android:layout_margin="8dp"
+                android:layout_marginVertical="8dp"
+                android:layout_weight="1"
                 android:gravity="center"
                 android:minHeight="92dp"
                 android:orientation="vertical">
@@ -126,13 +139,35 @@
                     android:layout_height="wrap_content"
                     android:ellipsize="marquee"
                     android:fontFamily="@font/poppins_bold"
+                    android:layout_marginStart="4dp"
                     android:maxLines="5"
                     android:text="@string/empty"
                     app:lineHeight="15sp" />
 
             </LinearLayout>
 
+            <ImageButton
+                android:id="@+id/itemDownload"
+                android:layout_width="48dp"
+                android:layout_height="48dp"
+                android:background="@android:color/transparent"
+                app:srcCompat="@drawable/ic_download_24"
+                app:tint="?attr/colorOnBackground"
+                tools:ignore="ContentDescription" />
+
         </LinearLayout>
+
+        <TextView
+            android:id="@+id/itemDownloadStatus"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ellipsize="marquee"
+            android:fontFamily="@font/poppins_bold"
+            android:maxLines="5"
+            android:padding="16dp"
+            android:text=""
+            android:visibility="gone"
+            app:lineHeight="15sp" />
 
         <TextView
             android:id="@+id/itemEpisodeDesc"
@@ -153,17 +188,8 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:alpha="0.33"
-        android:background="@color/bg"
+        android:background="?android:colorBackground"
         android:visibility="gone" />
 
-    <ImageView
-        android:id="@+id/itemEpisodeViewed"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_gravity="end"
-        android:layout_margin="8dp"
-        android:visibility="gone"
-        app:srcCompat="@drawable/ic_round_remove_red_eye_24"
-        tools:ignore="ContentDescription" />
 
 </androidx.cardview.widget.CardView>

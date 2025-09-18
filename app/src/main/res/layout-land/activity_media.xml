@@ -3,33 +3,19 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
-    android:orientation="horizontal"
-    android:layout_height="match_parent">
-
-    <com.google.android.material.navigationrail.NavigationRailView
-        android:id="@+id/mediaTab"
-        android:layout_width="wrap_content"
-        android:layout_height="match_parent"
-        android:background="@color/nav_bg"
-        android:translationZ="0dp"
-        app:itemPaddingTop="32dp"
-        app:menuGravity="center"
-        app:itemActiveIndicatorStyle="@style/BottomNavBar"
-        app:itemIconTint="@color/tab_layout_icon"
-        app:itemRippleColor="?attr/colorSecondary"
-        app:itemTextAppearanceActive="@style/NavBarText"
-        app:itemTextAppearanceInactive="@style/NavBarText"
-        app:itemTextColor="@color/tab_layout_text" />
+    android:layout_height="match_parent"
+    android:orientation="horizontal">
 
     <androidx.coordinatorlayout.widget.CoordinatorLayout
         android:layout_width="match_parent"
-        android:layout_height="match_parent">
+        android:layout_height="match_parent"
+        android:layout_weight="1">
 
         <com.google.android.material.appbar.AppBarLayout
             android:id="@+id/mediaAppBar"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:background="@color/bg"
+            android:background="?android:colorBackground"
             android:translationZ="5dp">
 
             <com.google.android.material.appbar.CollapsingToolbarLayout
@@ -37,7 +23,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:fitsSystemWindows="false"
-                app:contentScrim="@color/nav_bg"
+                app:contentScrim="?android:colorBackground"
                 app:layout_scrollFlags="scroll|exitUntilCollapsed|snap">
 
                 <com.flaviofaria.kenburnsview.KenBurnsView
@@ -103,6 +89,7 @@
                             android:scrollHorizontally="false"
                             android:singleLine="false"
                             android:text="@string/slogan"
+                            android:textColor="?attr/colorOnBackground"
                             android:textSize="16sp"
                             android:transitionName="mediaTitle" />
 
@@ -135,12 +122,13 @@
                             android:marqueeRepeatLimit="marquee_forever"
                             android:padding="8dp"
                             android:singleLine="true"
-                            android:text="@string/add"
+                            android:text="@string/add_list"
                             android:textAllCaps="true"
                             android:textColor="?attr/colorSecondary"
                             android:textSize="14sp"
                             android:textStyle="bold"
                             app:cornerRadius="16dp"
+                            app:strokeColor="@color/bg_opp"
                             tools:ignore="SmallSp,TextContrastCheck" />
 
                     </LinearLayout>
@@ -171,7 +159,6 @@
                         android:layout_width="match_parent"
                         android:layout_height="match_parent"
                         android:layout_gravity="center_vertical"
-                        android:background="@color/nav_bg"
                         android:ellipsize="marquee"
                         android:focusable="true"
                         android:focusableInTouchMode="true"
@@ -185,6 +172,7 @@
                         android:text="@string/slogan"
                         android:textSize="16sp"
                         android:transitionName="mediaTitle"
+                        app:contentScrim="?android:colorBackground"
                         tools:visibility="gone" />
 
                     <LinearLayout
@@ -206,7 +194,7 @@
                             android:lineSpacingExtra="-8sp"
                             android:marqueeRepeatLimit="marquee_forever"
                             android:maxLines="2"
-                            android:textColor="@color/fg"
+                            android:textColor="?attr/colorOnBackground"
                             android:textSize="16sp"
                             tools:text="Watched 10 out of 10" />
 
@@ -218,7 +206,7 @@
                             android:padding="8dp"
                             android:tintMode="src_atop"
                             app:srcCompat="@drawable/ic_round_favorite_border_24"
-                            app:tint="@color/nav_tab"
+                            app:tint="@color/bg_opp"
                             tools:ignore="ContentDescription,ImageContrastCheck" />
 
                         <ImageView
@@ -228,7 +216,7 @@
                             android:layout_marginStart="-8dp"
                             android:padding="8dp"
                             app:srcCompat="@drawable/ic_round_share_24"
-                            app:tint="@color/nav_tab"
+                            app:tint="@color/bg_opp"
                             app:tintMode="src_atop"
                             tools:ignore="ContentDescription,ImageContrastCheck" />
 
@@ -275,13 +263,34 @@
         </androidx.cardview.widget.CardView>
 
         <androidx.cardview.widget.CardView
+            android:id="@+id/incognito"
+            android:layout_width="32dp"
+            android:layout_height="32dp"
+            android:layout_gravity="start"
+            android:layout_margin="16dp"
+            android:translationZ="7dp"
+            android:visibility="gone"
+            app:cardBackgroundColor="@color/nav_bg"
+            app:cardCornerRadius="16dp">
+
+            <androidx.constraintlayout.utils.widget.ImageFilterView
+                android:id="@+id/incognitoImage"
+                android:layout_width="24dp"
+                android:layout_height="24dp"
+                android:layout_gravity="center"
+                android:src="@drawable/ic_incognito_24"
+                app:tint="@color/incognito"
+                tools:ignore="ContentDescription" />
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
             android:id="@+id/mediaClose"
             android:layout_width="32dp"
             android:layout_height="32dp"
             android:layout_gravity="end"
             android:layout_margin="16dp"
             android:translationZ="7dp"
-            app:cardBackgroundColor="@color/nav_bg"
+            app:cardBackgroundColor="?android:colorBackground"
             app:cardCornerRadius="16dp">
 
             <androidx.constraintlayout.utils.widget.ImageFilterView
@@ -292,6 +301,142 @@
                 android:src="@drawable/ic_round_close_24"
                 tools:ignore="ContentDescription" />
         </androidx.cardview.widget.CardView>
+
+        <FrameLayout
+            android:id="@+id/fragmentExtensionsContainer"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:paddingTop="16dp"
+            android:visibility="gone" />
+
+        <LinearLayout
+            android:id="@+id/commentMessageContainer"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom|end"
+            android:background="@color/nav_bg"
+            android:orientation="vertical"
+            android:windowSoftInputMode="adjustResize">
+
+            <LinearLayout
+                android:id="@+id/commentReplyToContainer"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp"
+                android:orientation="horizontal"
+                android:visibility="gone"
+                tools:ignore="UseCompoundDrawables">
+
+                <TextView
+                    android:id="@+id/commentReplyTo"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginStart="16dp"
+                    android:layout_marginEnd="16dp"
+                    android:layout_weight="1"
+                    android:ellipsize="end"
+                    android:fontFamily="@font/poppins_semi_bold"
+                    android:singleLine="true"
+                    android:text="Replying to "
+                    android:textColor="?attr/colorOnBackground"
+                    android:textSize="14sp"
+                    tools:ignore="HardcodedText" />
+
+                <ImageView
+                    android:id="@+id/commentReplyToCancel"
+                    android:layout_width="24dp"
+                    android:layout_height="24dp"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginEnd="16dp"
+                    android:background="?android:attr/selectableItemBackground"
+                    app:srcCompat="@drawable/ic_round_close_24"
+                    app:tint="?attr/colorOnBackground"
+                    tools:ignore="ContentDescription" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/commentInputLayout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="?android:colorBackground"
+                android:orientation="horizontal"
+                android:paddingTop="8dp"
+                android:paddingBottom="8dp">
+
+                <com.google.android.material.imageview.ShapeableImageView
+                    android:id="@+id/commentUserAvatar"
+                    style="@style/CircularImageView"
+                    android:layout_width="42dp"
+                    android:layout_height="42dp"
+                    android:layout_marginStart="12dp"
+                    android:scaleType="center"
+                    app:srcCompat="@drawable/ic_round_add_circle_24"
+                    tools:ignore="ContentDescription,ImageContrastCheck" />
+
+                <EditText
+                    android:id="@+id/commentInput"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="start|center_vertical"
+                    android:layout_marginStart="8dp"
+                    android:layout_marginEnd="8dp"
+                    android:layout_weight="1"
+                    android:autofillHints="The One Piece is real"
+                    android:background="@drawable/card_outline"
+                    android:fontFamily="@font/poppins_semi_bold"
+                    android:hint="Add a comment..."
+                    android:inputType="textMultiLine"
+                    android:maxLength="300"
+                    android:maxLines="8"
+                    android:padding="8dp"
+                    android:textSize="12sp"
+                    tools:ignore="HardcodedText" />
+
+                <ImageButton
+                    android:id="@+id/commentLabel"
+                    android:layout_width="24dp"
+                    android:layout_height="24dp"
+                    android:layout_gravity="center"
+                    android:layout_marginEnd="8dp"
+                    android:background="@drawable/ic_label_off_24"
+                    android:visibility="gone"
+                    tools:ignore="ContentDescription"
+                    tools:visibility="visible" />
+
+                <ImageButton
+                    android:id="@+id/commentSend"
+                    android:layout_width="32dp"
+                    android:layout_height="32dp"
+                    android:layout_gravity="center"
+                    android:layout_marginEnd="12dp"
+                    android:background="@drawable/ic_round_send_24"
+                    android:visibility="gone"
+                    tools:ignore="ContentDescription"
+                    tools:visibility="visible" />
+            </LinearLayout>
+        </LinearLayout>
+
     </androidx.coordinatorlayout.widget.CoordinatorLayout>
+
+    <nl.joery.animatedbottombar.AnimatedBottomBar
+        android:id="@+id/mediaBottomBar"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_gravity="center_horizontal|bottom"
+        android:layout_weight="0"
+        android:background="?attr/colorSurface"
+        android:padding="0dp"
+        app:abb_animationInterpolator="@anim/over_shoot"
+        app:abb_isVerticalBar="true"
+        app:abb_selectedTabType="text"
+        app:abb_textAppearance="@style/NavBarText"
+        app:itemActiveIndicatorStyle="@style/BottomNavBar"
+        app:itemIconTint="@color/tab_layout_icon"
+        app:itemRippleColor="#00000000"
+        app:itemTextAppearanceActive="@style/NavBarText"
+        app:itemTextAppearanceInactive="@style/NavBarText"
+        app:itemTextColor="@color/tab_layout_icon" />
 
 </LinearLayout>

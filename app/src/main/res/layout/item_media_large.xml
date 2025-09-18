@@ -9,7 +9,6 @@
     app:cardBackgroundColor="@color/nav_bg"
     app:cardCornerRadius="28dp">
 
-
     <ImageView
         android:id="@+id/itemCompactBanner"
         android:layout_width="match_parent"
@@ -61,7 +60,7 @@
                     android:layout_height="wrap_content"
                     android:layout_gravity="bottom|end"
                     android:background="@drawable/item_score"
-                    android:backgroundTint="#BFFFFFFF"
+                    android:backgroundTint="#FFFFFF"
                     android:backgroundTintMode="multiply"
                     android:orientation="horizontal"
                     android:paddingStart="8dp"
@@ -74,7 +73,7 @@
                         android:layout_marginStart="2dp"
                         android:fontFamily="@font/poppins_bold"
                         android:paddingTop="2dp"
-                        android:textColor="@color/bg_white"
+                        android:textColor="?attr/colorOnPrimary"
                         android:textSize="12sp"
                         tools:ignore="TextContrastCheck"
                         tools:text="0.0" />
@@ -84,6 +83,7 @@
                         android:layout_width="12dp"
                         android:layout_height="match_parent"
                         app:srcCompat="@drawable/ic_round_star_24"
+                        app:tint="?attr/colorOnPrimary"
                         tools:ignore="ContentDescription" />
 
                 </LinearLayout>
@@ -123,8 +123,8 @@
                 android:maxLines="3"
                 android:textSize="14dp"
                 android:transitionName="mediaTitle"
-                tools:text="@string/slogan"
-                tools:ignore="SpUsage" />
+                tools:ignore="SpUsage"
+                tools:text="@string/slogan" />
 
             <LinearLayout
                 android:layout_width="match_parent"
@@ -144,12 +144,49 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:alpha="0.66"
+                    android:text="@string/eps"
                     android:textSize="14dp"
-                    tools:ignore="SpUsage"
-                    android:text="@string/eps" />
+                    tools:ignore="SpUsage" />
 
             </LinearLayout>
 
+            <LinearLayout
+                android:id="@+id/itemCompactType"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="end"
+                android:layout_marginBottom="4dp"
+                android:orientation="horizontal"
+                android:visibility="gone"
+                tools:ignore="UseCompoundDrawables">
+
+                <ImageView
+                    android:id="@+id/itemCompactTypeImage"
+                    android:layout_width="18dp"
+                    android:layout_height="18dp"
+                    android:alpha="0.58"
+                    app:srcCompat="@drawable/ic_round_import_contacts_24"
+                    tools:ignore="ContentDescription" />
+
+                <TextView
+                    android:id="@+id/itemCompactRelation"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:alpha="0.58"
+                    android:ellipsize="end"
+                    android:maxLines="1"
+                    android:paddingStart="4dp"
+                    android:paddingEnd="4dp"
+                    android:singleLine="true"
+                    android:textAlignment="textEnd"
+                    android:textAllCaps="true"
+                    android:textSize="12sp"
+                    android:textStyle="italic"
+                    android:transitionName="mediaTitle"
+                    tools:ignore="TextContrastCheck"
+                    tools:text="Relation  " />
+
+            </LinearLayout>
         </LinearLayout>
 
     </LinearLayout>

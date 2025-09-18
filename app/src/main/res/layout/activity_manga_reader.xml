@@ -6,7 +6,7 @@
     android:layout_height="match_parent"
     tools:context=".media.manga.mangareader.MangaReaderActivity">
 
-    <ani.saikou.media.manga.mangareader.Swipy
+    <ani.dantotsu.media.manga.mangareader.Swipy
         android:id="@+id/mangaReaderSwipy"
         android:layout_width="match_parent"
         android:layout_height="match_parent">
@@ -22,7 +22,7 @@
             android:id="@+id/mangaReaderRecyclerContainer"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            app:gest_doubleTapZoom="3"
+            app:gest_doubleTapZoom="1.5"
             app:gest_maxZoom="6"
             app:gest_restrictRotation="true"
             app:gest_rotationEnabled="true">
@@ -36,7 +36,7 @@
                 tools:listitem="@layout/item_dual_page" />
 
         </com.alexvasilkov.gestures.views.GestureFrameLayout>
-    </ani.saikou.media.manga.mangareader.Swipy>
+    </ani.dantotsu.media.manga.mangareader.Swipy>
 
     <FrameLayout
         android:id="@+id/BottomSwipeContainer"
@@ -55,7 +55,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_gravity="center_horizontal"
-            app:cardBackgroundColor="#000000"
+            app:cardBackgroundColor="?attr/colorSurface"
             app:cardCornerRadius="16dp"
             app:contentPadding="8dp"
             app:strokeColor="?attr/colorSecondary"
@@ -70,7 +70,7 @@
                 android:layout_marginEnd="8dp"
                 android:fontFamily="@font/poppins_bold"
                 android:text="@string/app_name"
-                android:textColor="@color/bg_white"
+                android:textColor="?attr/colorOnSurface"
                 android:textSize="16sp" />
         </com.google.android.material.card.MaterialCardView>
 
@@ -93,7 +93,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_gravity="bottom|center_horizontal"
-            app:cardBackgroundColor="#000000"
+            app:cardBackgroundColor="?attr/colorSurface"
             app:cardCornerRadius="16dp"
             app:contentPadding="8dp"
             app:strokeColor="?attr/colorSecondary"
@@ -108,7 +108,7 @@
                 android:layout_marginEnd="8dp"
                 android:fontFamily="@font/poppins_bold"
                 android:text="@string/app_name"
-                android:textColor="@color/bg_white"
+                android:textColor="?attr/colorOnSurface"
                 android:textSize="16sp" />
         </com.google.android.material.card.MaterialCardView>
 
@@ -133,7 +133,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_gravity="center"
-            app:cardBackgroundColor="#000000"
+            app:cardBackgroundColor="?attr/colorSurface"
             app:cardCornerRadius="16dp"
             app:contentPadding="8dp"
             app:strokeColor="?attr/colorSecondary"
@@ -148,7 +148,7 @@
                 android:layout_marginEnd="8dp"
                 android:fontFamily="@font/poppins_bold"
                 android:text="@string/app_name"
-                android:textColor="@color/bg_white"
+                android:textColor="?attr/colorOnSurface"
                 android:textSize="16sp" />
         </com.google.android.material.card.MaterialCardView>
 
@@ -170,7 +170,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_gravity="center"
-            app:cardBackgroundColor="#000000"
+            app:cardBackgroundColor="?attr/colorSurface"
             app:cardCornerRadius="16dp"
             app:contentPadding="8dp"
             app:strokeColor="?attr/colorSecondary"
@@ -185,7 +185,7 @@
                 android:layout_marginEnd="8dp"
                 android:fontFamily="@font/poppins_bold"
                 android:text="@string/app_name"
-                android:textColor="@color/bg_white"
+                android:textColor="?attr/colorOnSurface"
                 android:textSize="16sp" />
         </com.google.android.material.card.MaterialCardView>
 
@@ -248,7 +248,7 @@
                         android:gravity="center_vertical"
                         android:orientation="vertical">
 
-                        <ani.saikou.SpinnerNoSwipe
+                        <ani.dantotsu.SpinnerNoSwipe
                             android:id="@+id/mangaReaderChapterSelect"
                             android:layout_width="match_parent"
                             android:layout_height="48dp"
@@ -267,6 +267,10 @@
                             android:layout_height="wrap_content"
                             android:layout_marginEnd="48dp"
                             android:fontFamily="@font/poppins"
+                            android:shadowColor="#000"
+                            android:shadowDx="1"
+                            android:shadowDy="1"
+                            android:shadowRadius="1"
                             android:singleLine="false"
                             android:textColor="@color/bg_white"
                             android:textSize="12sp"
@@ -285,7 +289,7 @@
                             android:layout_width="wrap_content"
                             android:layout_height="48dp"
                             android:backgroundTint="#00FFFFFF"
-                            android:src="@drawable/ic_round_download_24"
+                            android:src="@drawable/ic_download_24"
                             android:visibility="gone"
                             app:layout_constraintBottom_toBottomOf="parent"
                             app:layout_constraintEnd_toEndOf="parent"
@@ -357,7 +361,8 @@
                     app:labelStyle="@style/fontTooltip"
                     app:thumbRadius="8dp"
                     app:tickColor="#0000"
-                    app:trackColorInactive="@color/bg_white"
+                    app:trackColorActive="?attr/colorPrimary"
+                    app:trackColorInactive="@color/grey_60"
                     app:trackHeight="2dp" />
 
             </FrameLayout>
@@ -481,7 +486,7 @@
 
     </LinearLayout>
 
-    <ani.saikou.others.OutlineTextView
+    <ani.dantotsu.others.OutlineTextView
         android:id="@+id/mangaReaderPageNumber"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"

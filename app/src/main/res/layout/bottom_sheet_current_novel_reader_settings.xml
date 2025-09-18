@@ -3,7 +3,8 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
-    android:layout_height="match_parent">
+    android:layout_height="match_parent"
+    android:background="@drawable/bottom_sheet_background">
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -35,7 +36,7 @@
                 android:fontFamily="@font/poppins_bold"
                 android:text="@string/theme" />
 
-            <ani.saikou.SpinnerNoSwipe
+            <ani.dantotsu.SpinnerNoSwipe
                 android:id="@+id/themeSelect"
                 android:layout_width="wrap_content"
                 android:layout_height="48dp"
@@ -90,7 +91,7 @@
                     android:background="?android:attr/selectableItemBackground"
                     android:scaleX="-1"
                     android:src="@drawable/ic_round_amp_stories_24"
-                    app:tint="@color/bg_opp"
+                    app:tint="?attr/colorOnBackground"
                     tools:ignore="ContentDescription,SpeakableTextPresentCheck,ImageContrastCheck" />
             </androidx.cardview.widget.CardView>
 
@@ -108,7 +109,7 @@
                     android:alpha="0.33"
                     android:background="?android:attr/selectableItemBackground"
                     android:src="@drawable/ic_round_view_column_24"
-                    app:tint="@color/bg_opp"
+                    app:tint="?attr/colorOnBackground"
                     tools:ignore="ContentDescription,SpeakableTextPresentCheck,ImageContrastCheck" />
             </androidx.cardview.widget.CardView>
 
@@ -160,7 +161,7 @@
                     android:background="?android:attr/selectableItemBackground"
                     android:scaleX="-1"
                     android:src="@drawable/ic_round_close_24"
-                    app:tint="@color/bg_opp"
+                    app:tint="?attr/colorOnBackground"
                     tools:ignore="ContentDescription,SpeakableTextPresentCheck,ImageContrastCheck" />
             </androidx.cardview.widget.CardView>
 
@@ -178,7 +179,7 @@
                     android:alpha="0.33"
                     android:background="?android:attr/selectableItemBackground"
                     android:src="@drawable/ic_round_screen_rotation_24"
-                    app:tint="@color/bg_opp"
+                    app:tint="?attr/colorOnBackground"
                     tools:ignore="ContentDescription,SpeakableTextPresentCheck,ImageContrastCheck,DuplicateSpeakableTextCheck" />
             </androidx.cardview.widget.CardView>
 
@@ -196,7 +197,7 @@
                     android:alpha="0.33"
                     android:background="?android:attr/selectableItemBackground"
                     android:src="@drawable/ic_round_menu_book_24"
-                    app:tint="@color/bg_opp"
+                    app:tint="?attr/colorOnBackground"
                     tools:ignore="ContentDescription,SpeakableTextPresentCheck,ImageContrastCheck" />
             </androidx.cardview.widget.CardView>
 
@@ -231,7 +232,7 @@
                     android:background="?android:attr/selectableItemBackground"
                     android:scaleX="-1"
                     android:src="@drawable/ic_minus"
-                    app:tint="@color/bg_opp"
+                    app:tint="?attr/colorOnBackground"
                     tools:ignore="ContentDescription,SpeakableTextPresentCheck,ImageContrastCheck" />
             </androidx.cardview.widget.CardView>
 
@@ -266,7 +267,7 @@
                     android:background="?android:attr/selectableItemBackground"
                     android:scaleX="-1"
                     android:src="@drawable/ic_add"
-                    app:tint="@color/bg_opp"
+                    app:tint="?attr/colorOnBackground"
                     tools:ignore="ContentDescription,SpeakableTextPresentCheck,ImageContrastCheck" />
             </androidx.cardview.widget.CardView>
         </LinearLayout>
@@ -300,7 +301,7 @@
                     android:background="?android:attr/selectableItemBackground"
                     android:scaleX="-1"
                     android:src="@drawable/ic_minus"
-                    app:tint="@color/bg_opp"
+                    app:tint="?attr/colorOnBackground"
                     tools:ignore="ContentDescription,SpeakableTextPresentCheck,ImageContrastCheck" />
             </androidx.cardview.widget.CardView>
 
@@ -334,7 +335,7 @@
                     android:background="?android:attr/selectableItemBackground"
                     android:scaleX="-1"
                     android:src="@drawable/ic_add"
-                    app:tint="@color/bg_opp"
+                    app:tint="?attr/colorOnBackground"
                     tools:ignore="ContentDescription,SpeakableTextPresentCheck,ImageContrastCheck" />
             </androidx.cardview.widget.CardView>
         </LinearLayout>
@@ -368,7 +369,7 @@
                     android:background="?android:attr/selectableItemBackground"
                     android:scaleX="-1"
                     android:src="@drawable/ic_minus"
-                    app:tint="@color/bg_opp"
+                    app:tint="?attr/colorOnBackground"
                     tools:ignore="ContentDescription,SpeakableTextPresentCheck,ImageContrastCheck" />
             </androidx.cardview.widget.CardView>
 
@@ -402,7 +403,7 @@
                     android:background="?android:attr/selectableItemBackground"
                     android:scaleX="-1"
                     android:src="@drawable/ic_add"
-                    app:tint="@color/bg_opp"
+                    app:tint="?attr/colorOnBackground"
                     tools:ignore="ContentDescription,SpeakableTextPresentCheck,ImageContrastCheck" />
             </androidx.cardview.widget.CardView>
         </LinearLayout>
@@ -445,7 +446,7 @@
                     android:background="?android:attr/selectableItemBackground"
                     android:scaleX="-1"
                     android:src="@drawable/ic_minus"
-                    app:tint="@color/bg_opp"
+                    app:tint="?attr/colorOnBackground"
                     tools:ignore="ContentDescription,SpeakableTextPresentCheck,ImageContrastCheck" />
             </androidx.cardview.widget.CardView>
 
@@ -479,7 +480,7 @@
                     android:background="?android:attr/selectableItemBackground"
                     android:scaleX="-1"
                     android:src="@drawable/ic_add"
-                    app:tint="@color/bg_opp"
+                    app:tint="?attr/colorOnBackground"
                     tools:ignore="ContentDescription,SpeakableTextPresentCheck,ImageContrastCheck" />
             </androidx.cardview.widget.CardView>
         </LinearLayout>
@@ -493,7 +494,7 @@
             android:text="Maximum height (horizontal writing) or width (vertical writing)"
             android:textSize="14sp" />
 
-        <com.google.android.material.switchmaterial.SwitchMaterial
+        <com.google.android.material.materialswitch.MaterialSwitch
             android:id="@+id/useDarkTheme"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -503,16 +504,35 @@
             android:elegantTextHeight="true"
             android:fontFamily="@font/poppins_bold"
             android:minHeight="64dp"
-            android:text="Use Dark Theme"
+            android:text="@string/use_dark_theme"
             android:textAlignment="viewStart"
-            android:textColor="@color/bg_opp"
+            android:textColor="?attr/colorOnBackground"
             app:cornerRadius="0dp"
             app:drawableTint="?attr/colorPrimary"
             app:showText="false"
             app:thumbTint="@color/button_switch_track"
             tools:ignore="VisualLintButtonSize" />
 
-        <com.google.android.material.switchmaterial.SwitchMaterial
+        <com.google.android.material.materialswitch.MaterialSwitch
+            android:id="@+id/useOledTheme"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:checked="false"
+            android:drawableStart="@drawable/ic_round_brightness_4_24"
+            android:drawablePadding="16dp"
+            android:elegantTextHeight="true"
+            android:fontFamily="@font/poppins_bold"
+            android:minHeight="64dp"
+            android:text="@string/use_oled_theme"
+            android:textAlignment="viewStart"
+            android:textColor="?attr/colorOnBackground"
+            app:cornerRadius="0dp"
+            app:drawableTint="?attr/colorPrimary"
+            app:showText="false"
+            app:thumbTint="@color/button_switch_track"
+            tools:ignore="VisualLintButtonSize" />
+
+        <com.google.android.material.materialswitch.MaterialSwitch
             android:id="@+id/keepScreenOn"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -524,14 +544,14 @@
             android:minHeight="64dp"
             android:text="@string/keep_screen_on"
             android:textAlignment="viewStart"
-            android:textColor="@color/bg_opp"
+            android:textColor="?attr/colorOnBackground"
             app:cornerRadius="0dp"
             app:drawableTint="?attr/colorPrimary"
             app:showText="false"
             app:thumbTint="@color/button_switch_track"
             tools:ignore="VisualLintButtonSize" />
 
-        <com.google.android.material.switchmaterial.SwitchMaterial
+        <com.google.android.material.materialswitch.MaterialSwitch
             android:id="@+id/volumeButton"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -544,7 +564,7 @@
             android:minHeight="64dp"
             android:text="@string/volume_buttons"
             android:textAlignment="viewStart"
-            android:textColor="@color/bg_opp"
+            android:textColor="?attr/colorOnBackground"
             app:cornerRadius="0dp"
             app:drawableTint="?attr/colorPrimary"
             app:showText="false"

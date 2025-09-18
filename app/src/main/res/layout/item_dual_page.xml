@@ -23,18 +23,18 @@
             <FrameLayout
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:background="@color/bg"
+                android:background="?android:colorBackground"
                 android:focusable="false">
 
-                <ani.saikou.NoGestureSubsamplingImageView
+                <ani.dantotsu.NoGestureSubsamplingImageView
                     android:id="@+id/imgProgImageNoGestures2"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_gravity="center"
                     android:focusable="false"
                     android:visibility="gone"
-                    app:zoomEnabled="false"
                     app:panEnabled="false"
+                    app:zoomEnabled="false"
                     tools:ignore="ContentDescription,ImageContrastCheck"
                     tools:src="@tools:sample/backgrounds/scenic[0]" />
 
@@ -52,18 +52,18 @@
             <FrameLayout
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:background="@color/bg"
+                android:background="?android:colorBackground"
                 android:focusable="false">
 
-                <ani.saikou.NoGestureSubsamplingImageView
+                <ani.dantotsu.NoGestureSubsamplingImageView
                     android:id="@+id/imgProgImageNoGestures1"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_gravity="center"
                     android:focusable="false"
                     android:visibility="gone"
-                    app:zoomEnabled="false"
                     app:panEnabled="false"
+                    app:zoomEnabled="false"
                     tools:ignore="ContentDescription,ImageContrastCheck"
                     tools:src="@tools:sample/backgrounds/scenic[0]" />
 
