@@ -3,8 +3,8 @@
 </p>
 <p align="center">
    <img src="https://img.shields.io/badge/platforms-android-blueviolet?style=for-the-badge"/>
-   <a href="https://github.com/amritokun/Amiwatch/releases"><img src="https://img.shields.io/github/downloads/rebelonion/Amiwatch/total?color=%233DDC84&logo=android&logoColor=%23fff&style=for-the-badge"></a>
-   <a href="https://www.codefactor.io/repository/github/rebelonion/Amiwatch"><img src="https://www.codefactor.io/repository/github/rebelonion/Amiwatch/badge?color=%233DDC84&logo=android&logoColor=%23fff&style=for-the-badge" alt="CodeFactor" /></a>
+   <a href="https://github.com/amritokun/Amiwatch/releases"><img src="https://img.shields.io/github/downloads/amritokun/Amiwatch/total?color=%233DDC84&logo=android&logoColor=%23fff&style=for-the-badge"></a>
+   <a href="https://www.codefactor.io/repository/github/rebelonion/Amiwatch"><img src="https://www.codefactor.io/repository/github/amritokun/Amiwatch/badge?color=%233DDC84&logo=android&logoColor=%23fff&style=for-the-badge" alt="CodeFactor" /></a>
    <a href="https://discord.gg/4HPZ5nAWwM"><img src="https://img.shields.io/discord/358599430502481920.svg?style=for-the-badge&logo=discord&colorB=7289DA"></a>
 </p>
 
@@ -12,7 +12,6 @@
 
 Amiwatch is an [Anilist](https://anilist.co/) only client.
 
-> **Amiwatch (断トツ; Dan-totsu)** literally means "the best of the best" in Japanese. Try it out for yourself and be the judge!
 
 ## Terms of Use
 By downloading, installing, or using this application, you agree to:
