@@ -55,7 +55,7 @@
 
     </androidx.media3.ui.SubtitleView>
 
-    <ani.dantotsu.others.Xubtitle
+    <com.amiwatch.others.Xubtitle
         android:id="@+id/customSubtitleView"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -182,7 +182,7 @@
         android:layout_gravity="top|center"
         android:layout_marginTop="15dp"
         android:background="@drawable/rounded_top_nav"
-        android:fontFamily="@font/poppins_semi_bold"
+        android:fontFamily="@font/poppins_semibold"
         android:paddingStart="9dp"
         android:paddingEnd="9dp"
         android:textColor="@color/bg_white"

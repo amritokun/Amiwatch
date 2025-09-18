@@ -64,7 +64,7 @@
     <style name="MyPopup" parent="">
         <item name="android:layout_height">wrap_content</item>
         <item name="android:layout_width">match_parent</item>
-        <item name="android:fontFamily">@font/poppins_semi_bold</item>
+        <item name="android:fontFamily">@font/poppins_semibold</item>
         <item name="android:textColor">?attr/colorOnBackground</item>
         <item name="android:windowTitleStyle">@style/HeadingText</item>
         <item name="android:popupBackground">?attr/colorSurface</item>
@@ -97,5 +97,5 @@
     </style>
 
 
-    <style name="ThemeOverlay_Dantotsu_MediaRouter" parent="ThemeOverlay.AppCompat" />
+    <style name="ThemeOverlay_Amiwatch_MediaRouter" parent="ThemeOverlay.AppCompat" />
 </resources>

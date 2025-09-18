@@ -142,7 +142,7 @@
                 android:visibility="gone"
                 app:layout_behavior="@string/appbar_scrolling_view_behavior" />
 
-            <ani.dantotsu.FadingEdgeRecyclerView
+            <com.amiwatch.FadingEdgeRecyclerView
                 android:id="@+id/authorCharactersRecycler"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
@@ -156,7 +156,7 @@
                 tools:orientation="horizontal"
                 tools:visibility="visible" />
 
-            <ani.dantotsu.FadingEdgeRecyclerView
+            <com.amiwatch.FadingEdgeRecyclerView
                 android:id="@+id/characterRecyclerView"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"

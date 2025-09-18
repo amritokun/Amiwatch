@@ -79,7 +79,7 @@
                         android:layout_height="wrap_content"
                         android:layout_gravity="center"
                         android:layout_marginTop="10dp"
-                        android:fontFamily="@font/poppins_semi_bold"
+                        android:fontFamily="@font/poppins_semibold"
                         android:text="@string/username"
                         android:textColor="?attr/colorPrimary"
                         android:textSize="18sp" />
@@ -169,14 +169,14 @@
                             android:id="@+id/profileFollowerCount"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:fontFamily="@font/poppins_semi_bold"
+                            android:fontFamily="@font/poppins_semibold"
                             android:textColor="?attr/colorPrimary"
                             tools:text="1" />
 
                         <TextView
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:fontFamily="@font/poppins_semi_bold"
+                            android:fontFamily="@font/poppins_semibold"
                             android:text="@string/followers" />
 
                     </LinearLayout>
@@ -199,14 +199,14 @@
                             android:id="@+id/profileFollowingCount"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:fontFamily="@font/poppins_semi_bold"
+                            android:fontFamily="@font/poppins_semibold"
                             android:textColor="?attr/colorPrimary"
                             tools:text="2" />
 
                         <TextView
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:fontFamily="@font/poppins_semi_bold"
+                            android:fontFamily="@font/poppins_semibold"
                             android:text="@string/following" />
 
                     </LinearLayout>
@@ -229,14 +229,14 @@
                             android:id="@+id/profileAnimeCount"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:fontFamily="@font/poppins_semi_bold"
+                            android:fontFamily="@font/poppins_semibold"
                             android:textColor="?attr/colorPrimary"
                             tools:text="3" />
 
                         <TextView
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:fontFamily="@font/poppins_semi_bold"
+                            android:fontFamily="@font/poppins_semibold"
                             android:text="@string/anime" />
 
                     </LinearLayout>
@@ -259,14 +259,14 @@
                             android:id="@+id/profileMangaCount"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:fontFamily="@font/poppins_semi_bold"
+                            android:fontFamily="@font/poppins_semibold"
                             android:textColor="?attr/colorPrimary"
                             tools:text="4" />
 
                         <TextView
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:fontFamily="@font/poppins_semi_bold"
+                            android:fontFamily="@font/poppins_semibold"
                             android:text="@string/manga" />
 
                     </LinearLayout>

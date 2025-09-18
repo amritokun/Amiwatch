@@ -43,7 +43,7 @@
                     android:layout_marginStart="45dp"
                     android:layout_marginTop="-2dp"
                     android:layout_weight="1"
-                    android:fontFamily="@font/poppins_semi_bold"
+                    android:fontFamily="@font/poppins_semibold"
                     android:text="@string/filter"
                     android:textAlignment="center"
                     android:textSize="23sp" />
@@ -264,7 +264,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_marginEnd="10dp"
-                    android:fontFamily="@font/poppins_semi_bold"
+                    android:fontFamily="@font/poppins_semibold"
                     android:text="@string/grid" />
 
                 <com.google.android.material.materialswitch.MaterialSwitch
@@ -307,7 +307,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_marginEnd="10dp"
-                    android:fontFamily="@font/poppins_semi_bold"
+                    android:fontFamily="@font/poppins_semibold"
                     android:text="@string/grid" />
 
                 <com.google.android.material.materialswitch.MaterialSwitch

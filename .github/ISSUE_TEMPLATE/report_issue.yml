@@ -1,5 +1,5 @@
 name: 🐛 Issue Report
-description: Report a bug or problem in Dantotsu
+description: Report a bug or problem in Amiwatch
 labels: [bug]
 body:
   - type: textarea
@@ -93,7 +93,7 @@ body:
           required: true
         - label: I have provided a clear and descriptive title.
           required: true
-        - label: I am using the **[latest](https://github.com/rebelonion/Dantotsu/latest)** version of Dantotsu. If not, I have provided a reason for not updating.
+        - label: I am using the **[latest](https://github.com/amritokun/Amiwatch/latest)** version of Amiwatch. If not, I have provided a reason for not updating.
           required: true
         - label: I have updated all relevant extensions or dependencies.
           required: true

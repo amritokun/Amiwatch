@@ -65,7 +65,7 @@
                 android:id="@+id/profileUserName"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:fontFamily="@font/poppins_semi_bold"
+                android:fontFamily="@font/poppins_semibold"
                 android:text="@string/username"
                 android:textSize="18sp" />
 
@@ -74,7 +74,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_gravity="start|center_vertical"
-                android:fontFamily="@font/poppins_semi_bold"
+                android:fontFamily="@font/poppins_semibold"
                 android:ellipsize="end"
                 android:alpha="0.75"
                 android:maxLines="2"

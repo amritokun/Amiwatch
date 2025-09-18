@@ -40,7 +40,7 @@
             android:layout_marginEnd="8dp"
             android:visibility="gone"
             android:contentDescription="@string/preview"
-            android:fontFamily="@font/poppins_semi_bold"
+            android:fontFamily="@font/poppins_semibold"
             android:text="@string/private_mode"
             tools:ignore="ContentDescription" />
 
@@ -51,7 +51,7 @@
             android:layout_gravity="end|center_vertical"
             android:layout_marginEnd="8dp"
             android:contentDescription="@string/preview"
-            android:fontFamily="@font/poppins_semi_bold"
+            android:fontFamily="@font/poppins_semibold"
             android:text="@string/preview"
             tools:ignore="ContentDescription" />
 
@@ -82,7 +82,7 @@
                 android:id="@+id/editText"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:fontFamily="@font/poppins_semi_bold"
+                android:fontFamily="@font/poppins_semibold"
                 android:gravity="top|start"
                 android:hint="@string/reply_hint"
                 android:inputType="textMultiLine"
@@ -97,7 +97,7 @@
                 android:id="@+id/markdownPreview"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:fontFamily="@font/poppins_semi_bold"
+                android:fontFamily="@font/poppins_semibold"
                 android:gravity="top|start"
                 android:hint="@string/reply_hint"
                 android:nestedScrollingEnabled="true"

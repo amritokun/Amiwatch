@@ -1,6 +1,6 @@
 package eu.kanade.tachiyomi.network.interceptor
 
-import ani.dantotsu.util.Logger
+import com.amiwatch.util.Logger
 import okhttp3.Interceptor
 import okhttp3.Response
 import java.io.IOException

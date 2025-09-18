@@ -70,7 +70,7 @@
         android:requestLegacyExternalStorage="true"
         android:roundIcon="${icon_placeholder_round}"
         android:supportsRtl="true"
-        android:theme="@style/Theme.Dantotsu"
+        android:theme="@style/Theme.Amiwatch"
         android:usesCleartextTraffic="true"
         tools:ignore="AllowBackup"
         tools:targetApi="tiramisu">
@@ -237,7 +237,7 @@
         <activity
             android:name=".media.MediaDetailsActivity"
             android:parentActivityName=".MainActivity"
-            android:theme="@style/Theme.Dantotsu.NeverCutout"
+            android:theme="@style/Theme.Amiwatch.NeverCutout"
             android:windowSoftInputMode="adjustResize|stateHidden" />
         <activity android:name=".media.CharacterDetailsActivity" />
         <activity android:name=".home.NoInternet" />
@@ -261,15 +261,14 @@
             android:excludeFromRecents="true"
             android:exported="true"
             android:launchMode="singleTask">
-            <intent-filter android:label="Anilist Login for Dantotsu">
+            <intent-filter android:label="Anilist Login for Amiwatch">
                 <action android:name="android.intent.action.VIEW" />
-
                 <category android:name="android.intent.category.DEFAULT" />
                 <category android:name="android.intent.category.BROWSABLE" />
-
                 <data
-                    android:host="anilist"
-                    android:scheme="dantotsu" />
+                    android:scheme="amiwatch"
+                    android:host="auth"
+                    android:path="/anilist/callback" />
             </intent-filter>
         </activity>
         <activity
@@ -278,15 +277,14 @@
             android:excludeFromRecents="true"
             android:exported="true"
             android:launchMode="singleTask">
-            <intent-filter android:label="Myanimelist Login for Dantotsu">
+            <intent-filter android:label="MyAnimeList Login for Amiwatch">
                 <action android:name="android.intent.action.VIEW" />
-
                 <category android:name="android.intent.category.DEFAULT" />
                 <category android:name="android.intent.category.BROWSABLE" />
-
                 <data
-                    android:host="mal"
-                    android:scheme="dantotsu" />
+                    android:scheme="amiwatch"
+                    android:host="auth"
+                    android:path="/mal/callback" />
             </intent-filter>
         </activity>
         <activity
@@ -295,16 +293,16 @@
             android:excludeFromRecents="true"
             android:exported="true"
             android:launchMode="singleTask">
-            <intent-filter android:label="Discord Login for Dantotsu">
+            <intent-filter android:label="Discord Login for Amiwatch">
                 <action android:name="android.intent.action.VIEW" />
 
                 <category android:name="android.intent.category.DEFAULT" />
                 <category android:name="android.intent.category.BROWSABLE" />
 
-                <data android:scheme="dantotsu" />
+                <data android:scheme="Amiwatch" />
                 <data android:scheme="http" />
                 <data android:scheme="https" />
-                <data android:host="discord.dantotsu.com" />
+                <data android:host="discord.amiwatch.com" />
             </intent-filter>
         </activity>
         <activity
@@ -313,16 +311,16 @@
             android:excludeFromRecents="true"
             android:exported="true"
             android:launchMode="singleTask">
-            <intent-filter android:label="Discord Login for Dantotsu">
+            <intent-filter android:label="Discord Login for Amiwatch">
                 <action android:name="android.intent.action.VIEW" />
 
                 <category android:name="android.intent.category.DEFAULT" />
                 <category android:name="android.intent.category.BROWSABLE" />
 
-                <data android:scheme="dantotsu" />
+                <data android:scheme="Amiwatch" />
                 <data android:scheme="http" />
                 <data android:scheme="https" />
-                <data android:host="discord.dantotsu.com" />
+                <data android:host="discord.amiwatch.com" />
             </intent-filter>
         </activity>
         <activity
@@ -331,7 +329,7 @@
             android:excludeFromRecents="true"
             android:exported="true"
             android:launchMode="singleTask">
-            <intent-filter android:label="@string/read_on_dantotsu">
+            <intent-filter android:label="@string/read_on_amiwatch">
                 <action android:name="android.intent.action.VIEW" />
 
                 <category android:name="android.intent.category.DEFAULT" />
@@ -343,7 +341,7 @@
                 <data android:host="myanimelist.net" />
                 <data android:pathPrefix="/manga" />
             </intent-filter>
-            <intent-filter android:label="@string/watch_on_dantotsu">
+            <intent-filter android:label="@string/watch_on_amiwatch">
                 <action android:name="android.intent.action.VIEW" />
 
                 <category android:name="android.intent.category.DEFAULT" />
@@ -355,7 +353,7 @@
                 <data android:host="myanimelist.net" />
                 <data android:pathPrefix="/anime" />
             </intent-filter>
-            <intent-filter android:label="@string/view_profile_in_dantotsu">
+            <intent-filter android:label="@string/view_profile_in_amiwatch">
                 <action android:name="android.intent.action.VIEW" />
 
                 <category android:name="android.intent.category.DEFAULT" />

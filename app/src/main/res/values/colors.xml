@@ -616,6 +616,5 @@
     <color name="md_theme_dark_9_surfaceTint">#FFB4AA</color>
     <color name="md_theme_dark_9_outlineVariant">#534341</color>
     <color name="md_theme_dark_9_scrim">#000000</color>
-
-
+    <color name="splash_vector_fill">#000000</color> 
 </resources>

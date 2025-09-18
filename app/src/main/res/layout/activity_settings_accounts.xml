@@ -291,7 +291,7 @@
             </com.google.android.material.card.MaterialCardView>
 
         </LinearLayout>
-        <ani.dantotsu.FadingEdgeRecyclerView
+        <com.amiwatch.FadingEdgeRecyclerView
             android:id="@+id/settingsRecyclerView"
             android:layout_width="match_parent"
             android:layout_height="match_parent"

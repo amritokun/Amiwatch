@@ -28,7 +28,7 @@
             android:id="@+id/extensionNameTextView"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:fontFamily="@font/poppins_semi_bold"
+            android:fontFamily="@font/poppins_semibold"
             android:text="@string/extension_name"
             android:textSize="15sp" />
 
@@ -36,7 +36,7 @@
             android:id="@+id/extensionVersionTextView"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:fontFamily="@font/poppins_semi_bold"
+            android:fontFamily="@font/poppins_semibold"
             android:text="@string/extension_version"
             android:textSize="10sp"
             tools:ignore="SmallSp" />

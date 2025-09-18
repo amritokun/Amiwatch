@@ -59,7 +59,7 @@
 
         </com.google.android.material.appbar.AppBarLayout>
 
-    <ani.dantotsu.FadingEdgeRecyclerView
+    <com.amiwatch.FadingEdgeRecyclerView
         android:id="@+id/mediaRecyclerView"
         android:layout_width="match_parent"
         android:layout_height="match_parent"

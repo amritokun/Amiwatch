@@ -60,7 +60,7 @@
                 android:layout_gravity="center"
                 android:layout_marginEnd="4dp"
                 android:alpha="0.6"
-                android:fontFamily="@font/poppins_semi_bold"
+                android:fontFamily="@font/poppins_semibold"
                 android:text="•"
                 android:textSize="18sp"
                 tools:ignore="HardcodedText,RtlSymmetry" />
@@ -73,7 +73,7 @@
                 android:layout_marginEnd="6dp"
                 android:layout_weight="1"
                 android:alpha="0.6"
-                android:fontFamily="@font/poppins_semi_bold"
+                android:fontFamily="@font/poppins_semibold"
                 android:text="Time"
                 android:textSize="14sp"
                 tools:ignore="HardcodedText,RtlSymmetry" />
@@ -125,7 +125,7 @@
                     android:layout_height="wrap_content"
                     android:layout_gravity="center"
                     android:layout_marginEnd="4dp"
-                    android:fontFamily="@font/poppins_semi_bold"
+                    android:fontFamily="@font/poppins_semibold"
                     android:text="0"
                     android:textSize="18sp"
                     tools:ignore="HardcodedText" />
@@ -146,7 +146,7 @@
                 android:layout_height="wrap_content"
                 android:layout_gravity="center"
                 android:layout_margin="8dp"
-                android:fontFamily="@font/poppins_semi_bold"
+                android:fontFamily="@font/poppins_semibold"
                 android:text="@string/vote_out_of_total"
                 android:textSize="14sp"
                 tools:ignore="HardcodedText" />

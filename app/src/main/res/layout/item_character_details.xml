@@ -43,7 +43,7 @@
             android:text="@string/voice_actors"
             android:textSize="18sp" />
 
-        <ani.dantotsu.FadingEdgeRecyclerView
+        <com.amiwatch.FadingEdgeRecyclerView
             android:id="@+id/voiceActorRecycler"
             android:layout_width="match_parent"
             android:layout_height="match_parent"

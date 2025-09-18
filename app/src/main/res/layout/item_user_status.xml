@@ -28,12 +28,12 @@
                 tools:tint="@color/transparent" />
 
         </com.google.android.material.card.MaterialCardView>
-        <ani.dantotsu.home.status.CircleView
+        <com.amiwatch.home.status.CircleView
             android:id="@+id/profileUserStatusIndicator"
             android:layout_width="78dp"
             android:layout_height="78dp">
 
-        </ani.dantotsu.home.status.CircleView>
+        </com.amiwatch.home.status.CircleView>
     </FrameLayout>
 
     <TextView
@@ -43,7 +43,7 @@
         android:layout_height="wrap_content"
         android:layout_gravity="center_horizontal|center_vertical"
         android:ellipsize="end"
-        android:fontFamily="@font/poppins_semi_bold"
+        android:fontFamily="@font/poppins_semibold"
         android:gravity="center"
         android:singleLine="true"
         android:text="@string/username"

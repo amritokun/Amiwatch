@@ -59,7 +59,7 @@
                     android:layout_gravity="bottom"
                     android:layout_marginEnd="20dp"
                     android:layout_marginBottom="20dp"
-                    app:srcCompat="@drawable/anim_splash"
+                    app:srcCompat="@drawable/amiwatch_splash_anim"
                     tools:ignore="ContentDescription" />
 
             </LinearLayout>
@@ -76,7 +76,7 @@
             android:orientation="vertical"
             tools:ignore="ContentDescription">
 
-            <ani.dantotsu.FadingEdgeRecyclerView
+            <com.amiwatch.FadingEdgeRecyclerView
                 android:id="@+id/settingsRecyclerView"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
@@ -105,12 +105,16 @@
                 android:paddingTop="16dp"
                 android:paddingBottom="16dp">
 
-                <ImageView
+
+                <com.google.android.material.button.MaterialButton
                     android:id="@+id/settingBuyMeCoffee"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    app:srcCompat="@drawable/ic_bmc_button"
-                    tools:ignore="ContentDescription" />
+                    app:icon="@drawable/round_coffee_24"
+                    tools:ignore="ContentDescription"
+                    android:backgroundTint="#FF6433"
+                    android:text="Support me on Ko-fi"
+                    android:textAppearance="@style/TextAppearance.AppCompat.Button"/>
             </LinearLayout>
 
             <TextView

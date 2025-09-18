@@ -56,7 +56,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_gravity="center_vertical"
-                android:fontFamily="@font/poppins_semi_bold"
+                android:fontFamily="@font/poppins_semibold"
                 android:gravity="center"
                 android:text="@string/lorem_ipsum"
                 android:textColor="@color/bg_white"
@@ -128,7 +128,7 @@
                 android:layout_height="wrap_content"
                 android:layout_marginEnd="4dp"
                 android:alpha="0.6"
-                android:fontFamily="@font/poppins_semi_bold"
+                android:fontFamily="@font/poppins_semibold"
                 android:text="•"
                 android:textSize="18sp"
                 tools:ignore="HardcodedText,RtlSymmetry" />
@@ -140,7 +140,7 @@
                 android:layout_marginEnd="6dp"
                 android:layout_weight="1"
                 android:alpha="0.6"
-                android:fontFamily="@font/poppins_semi_bold"
+                android:fontFamily="@font/poppins_semibold"
                 android:text="Time"
                 android:textSize="14sp"
                 tools:ignore="HardcodedText,RtlSymmetry" />
@@ -186,7 +186,7 @@
             android:layout_height="wrap_content"
             android:layout_weight="1"
             android:ellipsize="marquee"
-            android:fontFamily="@font/poppins_semi_bold"
+            android:fontFamily="@font/poppins_semibold"
             android:gravity="start"
             android:maxLines="3"
             android:paddingHorizontal="12dp"
@@ -219,7 +219,7 @@
                 android:layout_height="wrap_content"
                 android:layout_gravity="center"
                 android:layout_marginTop="4dp"
-                android:fontFamily="@font/poppins_semi_bold"
+                android:fontFamily="@font/poppins_semibold"
                 android:textSize="15sp"
                 tools:text="12" />
 
@@ -247,7 +247,7 @@
                 android:layout_height="wrap_content"
                 android:layout_gravity="center"
                 android:layout_marginTop="4dp"
-                android:fontFamily="@font/poppins_semi_bold"
+                android:fontFamily="@font/poppins_semibold"
                 android:textSize="15sp"
                 tools:text="12" />
         </LinearLayout>

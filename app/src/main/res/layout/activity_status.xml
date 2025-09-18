@@ -5,7 +5,7 @@
     android:layout_height="match_parent"
     tools:context=".MainActivity">
 
-    <ani.dantotsu.home.status.Stories
+    <com.amiwatch.home.status.Stories
         android:id="@+id/stories"
         android:layout_width="match_parent"
         android:layout_height="match_parent" />

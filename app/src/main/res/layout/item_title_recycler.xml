@@ -35,7 +35,7 @@
             tools:ignore="ContentDescription" />
     </LinearLayout>
 
-    <ani.dantotsu.FadingEdgeRecyclerView
+    <com.amiwatch.FadingEdgeRecyclerView
         android:id="@+id/itemRecycler"
         android:layout_width="match_parent"
         android:layout_height="match_parent"

@@ -69,7 +69,7 @@
         android:layout_gravity="center_horizontal|center_vertical"
         android:alpha="0.58"
         android:ellipsize="end"
-        android:fontFamily="@font/poppins_semi_bold"
+        android:fontFamily="@font/poppins_semibold"
         android:gravity="center"
         android:singleLine="true"
         android:text="@string/slogan"

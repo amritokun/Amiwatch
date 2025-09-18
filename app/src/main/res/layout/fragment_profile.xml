@@ -234,7 +234,7 @@
                     android:layout_gravity="center"
                     android:layout_margin="90dp" />
 
-                <ani.dantotsu.FadingEdgeRecyclerView
+                <com.amiwatch.FadingEdgeRecyclerView
                     android:id="@+id/profileFavAnimeRecyclerView"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
@@ -278,7 +278,7 @@
                     android:layout_gravity="center"
                     android:layout_margin="90dp" />
 
-                <ani.dantotsu.FadingEdgeRecyclerView
+                <com.amiwatch.FadingEdgeRecyclerView
                     android:id="@+id/profileFavMangaRecyclerView"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
@@ -311,7 +311,7 @@
                 android:text="@string/fav_character"
                 android:textSize="18sp" />
 
-            <ani.dantotsu.FadingEdgeRecyclerView
+            <com.amiwatch.FadingEdgeRecyclerView
                 android:id="@+id/profileFavCharactersRecycler"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
@@ -344,7 +344,7 @@
                 android:text="@string/fav_staff"
                 android:textSize="18sp" />
 
-            <ani.dantotsu.FadingEdgeRecyclerView
+            <com.amiwatch.FadingEdgeRecyclerView
                 android:id="@+id/profileFavStaffRecycler"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"

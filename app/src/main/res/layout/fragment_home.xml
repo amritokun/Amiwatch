@@ -204,7 +204,7 @@
                                 android:layout_height="18dp"
                                 android:layout_gravity="end|bottom"
                                 android:background="@drawable/notification_circle"
-                                android:fontFamily="@font/poppins_semi_bold"
+                                android:fontFamily="@font/poppins_semibold"
                                 android:gravity="center"
                                 android:textColor="#F3F3F3"
                                 android:textSize="12sp"
@@ -354,7 +354,7 @@
                     android:layout_height="wrap_content"
                     android:layout_gravity="center" />
 
-                <ani.dantotsu.FadingEdgeRecyclerView
+                <com.amiwatch.FadingEdgeRecyclerView
                     android:id="@+id/homeUserStatusRecyclerView"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
@@ -404,7 +404,7 @@
                         tools:ignore="ContentDescription" />
                 </LinearLayout>
 
-                <ani.dantotsu.FadingEdgeRecyclerView
+                <com.amiwatch.FadingEdgeRecyclerView
                     android:id="@+id/homeHiddenItemsRecyclerView"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
@@ -498,7 +498,7 @@
                         android:layout_gravity="center"
                         android:layout_margin="90dp" />
 
-                    <ani.dantotsu.FadingEdgeRecyclerView
+                    <com.amiwatch.FadingEdgeRecyclerView
                         android:id="@+id/homeWatchingRecyclerView"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
@@ -591,7 +591,7 @@
                         android:layout_gravity="center"
                         android:layout_margin="90dp" />
 
-                    <ani.dantotsu.FadingEdgeRecyclerView
+                    <com.amiwatch.FadingEdgeRecyclerView
                         android:id="@+id/homeFavAnimeRecyclerView"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
@@ -687,7 +687,7 @@
                         android:layout_gravity="center"
                         android:layout_margin="90dp" />
 
-                    <ani.dantotsu.FadingEdgeRecyclerView
+                    <com.amiwatch.FadingEdgeRecyclerView
                         android:id="@+id/homePlannedAnimeRecyclerView"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
@@ -783,7 +783,7 @@
                         android:layout_gravity="center"
                         android:layout_margin="90dp" />
 
-                    <ani.dantotsu.FadingEdgeRecyclerView
+                    <com.amiwatch.FadingEdgeRecyclerView
                         android:id="@+id/homeReadingRecyclerView"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
@@ -875,7 +875,7 @@
                         android:layout_gravity="center"
                         android:layout_margin="90dp" />
 
-                    <ani.dantotsu.FadingEdgeRecyclerView
+                    <com.amiwatch.FadingEdgeRecyclerView
                         android:id="@+id/homeFavMangaRecyclerView"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
@@ -972,7 +972,7 @@
                         android:layout_gravity="center"
                         android:layout_margin="90dp" />
 
-                    <ani.dantotsu.FadingEdgeRecyclerView
+                    <com.amiwatch.FadingEdgeRecyclerView
                         android:id="@+id/homePlannedMangaRecyclerView"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
@@ -1063,7 +1063,7 @@
                         android:layout_gravity="center"
                         android:layout_margin="90dp" />
 
-                    <ani.dantotsu.FadingEdgeRecyclerView
+                    <com.amiwatch.FadingEdgeRecyclerView
                         android:id="@+id/homeRecommendedRecyclerView"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
@@ -1079,20 +1079,20 @@
             </LinearLayout>
 
             <LinearLayout
-                android:id="@+id/homeDantotsuContainer"
+                android:id="@+id/homeAmiwatchContainer"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:orientation="vertical"
                 android:visibility="gone">
 
                 <ImageView
-                    android:id="@+id/homeDantotsuIcon"
+                    android:id="@+id/homeAmiwatchIcon"
                     android:layout_width="match_parent"
                     android:layout_height="480dp"
                     android:contentDescription="@string/app_name"
                     android:padding="32dp"
                     android:scaleType="centerCrop"
-                    android:src="@drawable/anim_splash" />
+                    android:src="@drawable/amiwatch_splash_anim" />
 
                 <TextView
                     android:layout_width="match_parent"

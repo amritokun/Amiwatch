@@ -28,7 +28,7 @@
             android:id="@+id/emptyTextView"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:fontFamily="@font/poppins_semi_bold"
+            android:fontFamily="@font/poppins_semibold"
             android:gravity="center"
             android:visibility="gone" />
 
@@ -42,7 +42,7 @@
             android:clipChildren="false"
             android:clipToPadding="false">
 
-            <ani.dantotsu.FadingEdgeRecyclerView
+            <com.amiwatch.FadingEdgeRecyclerView
                 android:id="@+id/notificationRecyclerView"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"

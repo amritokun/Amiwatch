@@ -1,13 +1,13 @@
 <resources>
 
-    <style name="Theme.Dantotsu" parent="Theme.Base">
+    <style name="Theme.Amiwatch" parent="Theme.Base">
         <item name="android:statusBarColor">@color/transparent</item>
         <item name="colorOnPrimary">@color/bg_black</item>
         <item name="android:textColor">@color/bg_white</item>
         <item name="colorSecondaryVariant">@color/violet_400</item>
     </style>
 
-    <style name="Theme.Dantotsu.Blue" parent="Theme.Base">
+    <style name="Theme.Amiwatch.Blue" parent="Theme.Base">
         <item name="colorPrimary">@color/md_theme_dark_1_primary</item>
         <item name="colorOnPrimary">@color/md_theme_dark_1_onPrimary</item>
         <item name="colorPrimaryContainer">@color/md_theme_dark_1_primaryContainer</item>
@@ -36,7 +36,7 @@
         <item name="colorPrimaryInverse">@color/md_theme_dark_1_inversePrimary</item>
     </style>
 
-    <style name="Theme.Dantotsu.Green" parent="Theme.Base">
+    <style name="Theme.Amiwatch.Green" parent="Theme.Base">
         <item name="colorPrimary">@color/md_theme_dark_2_primary</item>
         <item name="colorOnPrimary">@color/md_theme_dark_2_onPrimary</item>
         <item name="colorPrimaryContainer">@color/md_theme_dark_2_primaryContainer</item>
@@ -65,7 +65,7 @@
         <item name="colorPrimaryInverse">@color/md_theme_dark_2_inversePrimary</item>
     </style>
 
-    <style name="Theme.Dantotsu.Purple" parent="Theme.Base">
+    <style name="Theme.Amiwatch.Purple" parent="Theme.Base">
         <item name="colorPrimary">@color/md_theme_dark_3_primary</item>
         <item name="colorOnPrimary">@color/md_theme_dark_3_onPrimary</item>
         <item name="colorPrimaryContainer">@color/md_theme_dark_3_primaryContainer</item>
@@ -94,7 +94,7 @@
         <item name="colorPrimaryInverse">@color/md_theme_dark_3_inversePrimary</item>
     </style>
 
-    <style name="Theme.Dantotsu.Pink" parent="Theme.Base">
+    <style name="Theme.Amiwatch.Pink" parent="Theme.Base">
         <item name="colorPrimary">@color/md_theme_dark_4_primary</item>
         <item name="colorOnPrimary">@color/md_theme_dark_4_onPrimary</item>
         <item name="colorPrimaryContainer">@color/md_theme_dark_4_primaryContainer</item>
@@ -123,7 +123,7 @@
         <item name="colorPrimaryInverse">@color/md_theme_dark_4_inversePrimary</item>
     </style>
 
-    <style name="Theme.Dantotsu.Saikou" parent="Theme.Base">
+    <style name="Theme.Amiwatch.Saikou" parent="Theme.Base">
         <item name="colorPrimary">@color/md_theme_dark_5_primary</item>
         <item name="colorOnPrimary">@color/md_theme_dark_5_onPrimary</item>
         <item name="colorPrimaryContainer">@color/md_theme_dark_5_primaryContainer</item>
@@ -152,7 +152,7 @@
         <item name="colorPrimaryInverse">@color/md_theme_dark_5_inversePrimary</item>
     </style>
 
-    <style name="Theme.Dantotsu.Red" parent="Theme.Base">
+    <style name="Theme.Amiwatch.Red" parent="Theme.Base">
         <item name="colorPrimary">@color/md_theme_dark_6_primary</item>
         <item name="colorOnPrimary">@color/md_theme_dark_6_onPrimary</item>
         <item name="colorPrimaryContainer">@color/md_theme_dark_6_primaryContainer</item>
@@ -181,7 +181,7 @@
         <item name="colorPrimaryInverse">@color/md_theme_dark_6_inversePrimary</item>
     </style>
 
-    <style name="Theme.Dantotsu.Lavender" parent="Theme.Base">
+    <style name="Theme.Amiwatch.Lavender" parent="Theme.Base">
         <item name="colorPrimary">@color/md_theme_dark_7_primary</item>
         <item name="colorOnPrimary">@color/md_theme_dark_7_onPrimary</item>
         <item name="colorPrimaryContainer">@color/md_theme_dark_7_primaryContainer</item>
@@ -210,7 +210,7 @@
         <item name="colorPrimaryInverse">@color/md_theme_dark_7_inversePrimary</item>
     </style>
 
-    <style name="Theme.Dantotsu.Ocean" parent="Theme.Base">
+    <style name="Theme.Amiwatch.Ocean" parent="Theme.Base">
         <item name="colorPrimary">@color/md_theme_dark_8_primary</item>
         <item name="colorOnPrimary">@color/md_theme_dark_8_onPrimary</item>
         <item name="colorPrimaryContainer">@color/md_theme_dark_8_primaryContainer</item>
@@ -239,7 +239,7 @@
         <item name="colorPrimaryInverse">@color/md_theme_dark_8_inversePrimary</item>
     </style>
 
-    <style name="Theme.Dantotsu.Oriax" parent="Theme.Base">
+    <style name="Theme.Amiwatch.Oriax" parent="Theme.Base">
         <item name="colorPrimary">@color/md_theme_dark_9_primary</item>
         <item name="colorOnPrimary">@color/md_theme_dark_9_onPrimary</item>
         <item name="colorPrimaryContainer">@color/md_theme_dark_9_primaryContainer</item>
@@ -268,7 +268,7 @@
         <item name="colorPrimaryInverse">@color/md_theme_dark_9_inversePrimary</item>
     </style>
 
-    <style name="Theme.Dantotsu.Monochrome" parent="Theme.Base">
+    <style name="Theme.Amiwatch.Monochrome" parent="Theme.Base">
         <item name="colorPrimary">@color/bg_white</item>
         <item name="colorOnPrimary">@color/bg_black</item>
         <item name="colorPrimaryContainer">@color/bg_white</item>
@@ -297,61 +297,61 @@
         <item name="colorPrimaryInverse">@color/bg_black</item>
     </style>
 
-    <style name="Theme.Dantotsu.BlueOLED" parent="Theme.Dantotsu.Blue">
+    <style name="Theme.Amiwatch.BlueOLED" parent="Theme.Amiwatch.Blue">
         <item name="android:colorBackground">@color/darkest_Black</item>
         <item name="colorSurface">@color/darkest_Black</item>
         <item name="colorSurfaceVariant">@color/nav_bg</item>
     </style>
 
-    <style name="Theme.Dantotsu.GreenOLED" parent="Theme.Dantotsu.Green">
+    <style name="Theme.Amiwatch.GreenOLED" parent="Theme.Amiwatch.Green">
         <item name="android:colorBackground">@color/darkest_Black</item>
         <item name="colorSurface">@color/darkest_Black</item>
         <item name="colorSurfaceVariant">@color/nav_bg</item>
     </style>
 
-    <style name="Theme.Dantotsu.PurpleOLED" parent="Theme.Dantotsu.Purple">
+    <style name="Theme.Amiwatch.PurpleOLED" parent="Theme.Amiwatch.Purple">
         <item name="android:colorBackground">@color/darkest_Black</item>
         <item name="colorSurface">@color/darkest_Black</item>
         <item name="colorSurfaceVariant">@color/nav_bg</item>
     </style>
 
-    <style name="Theme.Dantotsu.PinkOLED" parent="Theme.Dantotsu.Pink">
+    <style name="Theme.Amiwatch.PinkOLED" parent="Theme.Amiwatch.Pink">
         <item name="android:colorBackground">@color/darkest_Black</item>
         <item name="colorSurface">@color/darkest_Black</item>
         <item name="colorSurfaceVariant">@color/nav_bg</item>
     </style>
 
-    <style name="Theme.Dantotsu.MonochromeOLED" parent="Theme.Dantotsu.Monochrome">
+    <style name="Theme.Amiwatch.MonochromeOLED" parent="Theme.Amiwatch.Monochrome">
         <item name="android:colorBackground">@color/darkest_Black</item>
         <item name="colorSurface">@color/darkest_Black</item>
         <item name="colorSurfaceVariant">@color/nav_bg</item>
     </style>
 
-    <style name="Theme.Dantotsu.RedOLED" parent="Theme.Dantotsu.Red">
+    <style name="Theme.Amiwatch.RedOLED" parent="Theme.Amiwatch.Red">
         <item name="android:colorBackground">@color/darkest_Black</item>
         <item name="colorSurface">@color/darkest_Black</item>
         <item name="colorSurfaceVariant">@color/nav_bg</item>
     </style>
 
-    <style name="Theme.Dantotsu.OriaxOLED" parent="Theme.Dantotsu.Oriax">
+    <style name="Theme.Amiwatch.OriaxOLED" parent="Theme.Amiwatch.Oriax">
         <item name="android:colorBackground">@color/darkest_Black</item>
         <item name="colorSurface">@color/darkest_Black</item>
         <item name="colorSurfaceVariant">@color/nav_bg</item>
     </style>
 
-    <style name="Theme.Dantotsu.LavenderOLED" parent="Theme.Dantotsu.Lavender">
+    <style name="Theme.Amiwatch.LavenderOLED" parent="Theme.Amiwatch.Lavender">
         <item name="android:colorBackground">@color/darkest_Black</item>
         <item name="colorSurface">@color/darkest_Black</item>
         <item name="colorSurfaceVariant">@color/nav_bg</item>
     </style>
 
-    <style name="Theme.Dantotsu.SaikouOLED" parent="Theme.Dantotsu.Saikou">
+    <style name="Theme.Amiwatch.SaikouOLED" parent="Theme.Amiwatch.Saikou">
         <item name="android:colorBackground">@color/darkest_Black</item>
         <item name="colorSurface">@color/darkest_Black</item>
         <item name="colorSurfaceVariant">@color/nav_bg</item>
     </style>
 
-    <style name="Theme.Dantotsu.OceanOLED" parent="Theme.Dantotsu.Ocean">
+    <style name="Theme.Amiwatch.OceanOLED" parent="Theme.Amiwatch.Ocean">
         <item name="android:colorBackground">@color/darkest_Black</item>
         <item name="colorSurface">@color/darkest_Black</item>
         <item name="colorSurfaceVariant">@color/nav_bg</item>
