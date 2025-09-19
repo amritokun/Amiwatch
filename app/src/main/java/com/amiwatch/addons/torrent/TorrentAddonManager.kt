@@ -137,6 +137,6 @@ class TorrentAddonManager(
     companion object {
         const val TORRENT_PACKAGE = "Amiwatch.torrentAddon"
         const val TORRENT_CLASS = "com.amiwatch.torrentAddon.TorrentAddon"
-        const val REPO = "rebelonion/Amiwatch-Torrent-Addon"
+        const val REPO = "amritokun/Amiwatch-Torrent-Addon"
     }
 }

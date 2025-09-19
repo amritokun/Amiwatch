@@ -25,7 +25,7 @@
             android:layout_alignParentStart="true"
             android:layout_alignParentTop="true"
             android:foregroundGravity="center_vertical"
-            android:src="@drawable/ic_dantotsu_round"
+            android:src="@drawable/ic_amiwatch_round"
             tools:ignore="ContentDescription" />
 
         <TextView

@@ -28,7 +28,7 @@ class DiscordDialogFragment : BottomSheetDialogFragment() {
 
         when (PrefManager.getCustomVal("discord_mode", "Amiwatch")) {
             "nothing" -> binding.radioNothing.isChecked = true
-            "Amiwatch" -> binding.radioDantotsu.isChecked = true
+            "Amiwatch" -> binding.radioAmiwatch.isChecked = true
             "anilist" -> binding.radioAnilist.isChecked = true
             else -> binding.radioAnilist.isChecked = true
         }
@@ -42,7 +42,7 @@ class DiscordDialogFragment : BottomSheetDialogFragment() {
         binding.radioGroup.setOnCheckedChangeListener { _, checkedId ->
             val mode = when (checkedId) {
                 binding.radioNothing.id -> "nothing"
-                binding.radioDantotsu.id -> "Amiwatch"
+                binding.radioAmiwatch.id -> "Amiwatch"
                 binding.radioAnilist.id -> "anilist"
                 else -> "Amiwatch"
             }

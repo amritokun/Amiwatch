@@ -143,9 +143,9 @@ class SettingsAboutActivity : AppCompatActivity() {
                         onClick = {
                             val text = TextView(context)
                             val pPLink =
-                                "https://raw.githubusercontent.com/rebelonion/Amiwatch/main/privacy_policy.md"
+                                "https://raw.githubusercontent.com/amritokun/Amiwatch/main/privacy_policy.md"
                             val backup =
-                                "https://gcore.jsdelivr.net/gh/rebelonion/Amiwatch/privacy_policy.md"
+                                "https://gcore.jsdelivr.net/gh/amritokun/Amiwatch/privacy_policy.md"
                             text.text = getString(R.string.loading)
                             val markWon = try {
                                 buildMarkwon(this@SettingsAboutActivity, false)

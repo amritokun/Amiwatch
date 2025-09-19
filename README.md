@@ -4,7 +4,7 @@
 <p align="center">
    <img src="https://img.shields.io/badge/platforms-android-blueviolet?style=for-the-badge"/>
    <a href="https://github.com/amritokun/Amiwatch/releases"><img src="https://img.shields.io/github/downloads/amritokun/Amiwatch/total?color=%233DDC84&logo=android&logoColor=%23fff&style=for-the-badge"></a>
-   <a href="https://www.codefactor.io/repository/github/rebelonion/Amiwatch"><img src="https://www.codefactor.io/repository/github/amritokun/Amiwatch/badge?color=%233DDC84&logo=android&logoColor=%23fff&style=for-the-badge" alt="CodeFactor" /></a>
+   <a href="https://www.codefactor.io/repository/github/amritokun/Amiwatch"><img src="https://www.codefactor.io/repository/github/amritokun/Amiwatch/badge?color=%233DDC84&logo=android&logoColor=%23fff&style=for-the-badge" alt="CodeFactor" /></a>
    <a href="https://discord.gg/4HPZ5nAWwM"><img src="https://img.shields.io/discord/358599430502481920.svg?style=for-the-badge&logo=discord&colorB=7289DA"></a>
 </p>
 
@@ -43,14 +43,14 @@ You can come hang out with our awesome community, request new features, and repo
 ### OFFICIAL DISCORD SERVER 🚀
 
 <p align="center">
-   <a href="https://discord.gg/4HPZ5nAWwM">
+   <a href="https://discord.gg/">
       <img src="https://invidget.switchblade.xyz/4HPZ5nAWwM">
    </a>
 </p>
 
 ## VISITORS
 
-<img src="https://count.getloli.com/get/@:rebeloniondantotsu" alt=":rebeloniondantotsu" />
+<img src="https://count.getloli.com/get/@:amritokun/amiwatch" alt=":amritokun/amiwatch" />
 
 ## LICENSE 📜
 

@@ -28,10 +28,10 @@ class ForksDialogFragment : BottomSheetDialogFragment() {
         binding.devsRecyclerView.adapter = DevelopersAdapter(
             arrayOf(
                 Developer(
-                    "Awery",
-                    "https://avatars.githubusercontent.com/u/92123190?v=4",
-                    "MrBoomDeveloper",
-                    "https://github.com/MrBoomDeveloper/Awery"
+                    "There's None",
+                    "https://avatars.githubusercontent.com/u/",
+                    "There's None",
+                    "https://github.com/"
                 ),
             )
         )
