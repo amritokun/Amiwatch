@@ -1,5 +1,5 @@
 <p align="center">
-   <img src="https://pbxt.replicate.delivery/2PX94viD6lJSDVayQrGyDH7CGu7IjQ6e8HEtOGDeelefXRdOC/out.png" alt="Amiwatch Banner" width=100% >
+   <img src="https://github.com/amritokun/Amiwatch/blob/main/app/src/main/res/mipmap-xhdpi/ic_banner_foreground.png" alt="Amiwatch Banner" width=100% >
 </p>
 <p align="center">
    <img src="https://img.shields.io/badge/platforms-android-blueviolet?style=for-the-badge"/>
