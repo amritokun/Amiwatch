@@ -24,7 +24,6 @@
         <item name="android:windowSplashScreenAnimatedIcon" tools:targetApi="s">
             @drawable/amiwatch_splash_anim
         </item>
-        <item name="android:windowSplashScreenBackground" tools:targetApi="s">@color/bg_black</item>
         <item name="android:windowLayoutInDisplayCutoutMode" tools:targetApi="o_mr1">shortEdges
         </item>
     </style>
