@@ -7,8 +7,10 @@
             android:width="432dp"
             android:height="432dp"
             android:viewportWidth="432"
-            android:viewportHeight="432">
-            <group
+            android:viewportHeight="432"
+            android:tint="?colorOnBackground">
+            
+        <group
                 android:name="group"
                 android:translateX="24.8727499999639"
                 android:translateY="29.39599999974709">
