@@ -76,7 +76,7 @@
                 android:layout_height="match_parent">
 
                 <androidx.cardview.widget.CardView
-                    android:id="@+id/dantotsuCard"
+                    android:id="@+id/amiwatchCard"
                     android:layout_width="wrap_content"
                     android:layout_height="48dp"
                     android:layout_gravity="center"

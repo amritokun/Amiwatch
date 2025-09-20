@@ -430,11 +430,11 @@ class HomeFragment : Fragment() {
 
         model.empty.observe(viewLifecycleOwner)
         {
-            binding.homeDantotsuContainer.visibility = if (it == true) View.VISIBLE else View.GONE
-            (binding.homeDantotsuIcon.drawable as Animatable).start()
-            binding.homeDantotsuContainer.startAnimation(setSlideUp())
-            binding.homeDantotsuIcon.setSafeOnClickListener {
-                (binding.homeDantotsuIcon.drawable as Animatable).start()
+            binding.homeAmiwatchContainer.visibility = if (it == true) View.VISIBLE else View.GONE
+            (binding.homeAmiwatchIcon.drawable as Animatable).start()
+            binding.homeAmiwatchContainer.startAnimation(setSlideUp())
+            binding.homeAmiwatchIcon.setSafeOnClickListener {
+                (binding.homeAmiwatchIcon.drawable as Animatable).start()
             }
         }
 

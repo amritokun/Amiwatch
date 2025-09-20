@@ -43,7 +43,7 @@ object Notifications {
      * Notification channel and ids used by the torrent server.
      */
     const val ID_TORRENT_SERVER = -1100
-    const val CHANNEL_TORRENT_SERVER = "dantotsu_torrent_server"
+    const val CHANNEL_TORRENT_SERVER = "amiwatch_torrent_server"
 
     /**
      * Notification channel used for Incognito Mode

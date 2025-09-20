@@ -1079,14 +1079,14 @@
             </LinearLayout>
 
             <LinearLayout
-                android:id="@+id/homeDantotsuContainer"
+                android:id="@+id/homeAmiwatchContainer"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:orientation="vertical"
                 android:visibility="gone">
 
                 <ImageView
-                    android:id="@+id/homeDantotsuIcon"
+                    android:id="@+id/homeAmiwatchIcon"
                     android:layout_width="match_parent"
                     android:layout_height="480dp"
                     android:contentDescription="@string/app_name"
