@@ -27,7 +27,7 @@ class CommentNotificationWorker(appContext: Context, workerParams: WorkerParamet
     enum class NotificationType(val id: String) {
         COMMENT_REPLY(Notifications.CHANNEL_COMMENTS),
         COMMENT_WARNING(Notifications.CHANNEL_COMMENT_WARING),
-        DANTOTSU_UPDATE(Notifications.CHANNEL_APP_GLOBAL),
+        AMIWATCH_UPDATE(Notifications.CHANNEL_APP_GLOBAL),
         NO_NOTIFICATION("no_notification"),
         UNKNOWN("unknown")
     }

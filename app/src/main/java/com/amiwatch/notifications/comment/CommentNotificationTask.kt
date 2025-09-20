@@ -64,7 +64,7 @@ class CommentNotificationTask : Task {
                     val type: CommentNotificationWorker.NotificationType = when (it.type) {
                         1 -> CommentNotificationWorker.NotificationType.COMMENT_REPLY
                         2 -> CommentNotificationWorker.NotificationType.COMMENT_WARNING
-                        3 -> CommentNotificationWorker.NotificationType.DANTOTSU_UPDATE
+                        3 -> CommentNotificationWorker.NotificationType.AMIWATCH_UPDATE
                         420 -> CommentNotificationWorker.NotificationType.NO_NOTIFICATION
                         else -> CommentNotificationWorker.NotificationType.UNKNOWN
                     }
@@ -120,14 +120,14 @@ class CommentNotificationTask : Task {
                             )
                         }
 
-                        CommentNotificationWorker.NotificationType.DANTOTSU_UPDATE -> {
+                        CommentNotificationWorker.NotificationType.AMIWATCH_UPDATE -> {
                             val title = "Update from Amiwatch"
                             val message = it.content ?: "New feature available"
 
                             val commentStore = CommentStore(
                                 title,
                                 message,
-                                CommentNotificationWorker.NotificationType.DANTOTSU_UPDATE,
+                                CommentNotificationWorker.NotificationType.AMIWATCH_UPDATE,
                                 null,
                                 null
                             )
@@ -135,7 +135,7 @@ class CommentNotificationTask : Task {
 
                             createNotification(
                                 context,
-                                CommentNotificationWorker.NotificationType.DANTOTSU_UPDATE,
+                                CommentNotificationWorker.NotificationType.AMIWATCH_UPDATE,
                                 message,
                                 title,
                                 0,
@@ -268,7 +268,7 @@ class CommentNotificationTask : Task {
                 builder.build()
             }
 
-            CommentNotificationWorker.NotificationType.DANTOTSU_UPDATE -> {
+            CommentNotificationWorker.NotificationType.AMIWATCH_UPDATE -> {
                 val intent = Intent(context, MainActivity::class.java).apply {
                     flags = Intent.FLAG_ACTIVITY_NEW_TASK or Intent.FLAG_ACTIVITY_CLEAR_TASK
                 }

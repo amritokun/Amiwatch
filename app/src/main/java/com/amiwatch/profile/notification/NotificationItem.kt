@@ -388,7 +388,7 @@ class NotificationItem(
                 }
             }
 
-            NotificationType.DANTOTSU_UPDATE -> {
+            NotificationType.AMIWATCH_UPDATE -> {
                 image(user = true)
             }
 
