@@ -13,7 +13,7 @@
     <string name="discord" translatable="false">https://discord.gg/anGUe8tePP</string>
     <string name="github" translatable="false">https://github.com/amritokun/Amiwatch</string>
     <string name="telegram" translatable="false" tools:ignore="Typos">https://t.me/Amiwatch </string>
-    <string name="coffee" translatable="false">https://www.buymeacoffee.com/amritokun</string>
+    <string name="coffee" translatable="false">https://www.ko-fi.com/amritokun</string>
 
     <string name="anilist_link">https://anilist.co/user/%1$s/</string>
     <string name="myanilist_link">https://myanimelist.net/profile/%1$s/</string>
