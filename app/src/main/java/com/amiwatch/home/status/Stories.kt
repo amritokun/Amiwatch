@@ -69,7 +69,7 @@ class Stories @JvmOverloads constructor(
         binding = FragmentStatusBinding.inflate(inflater, this, false)
         addView(binding.root)
 
-        primaryColor = context.getThemeColor(com.google.android.material.R.attr.colorPrimary)
+        primaryColor = context.getThemeColor(com.google.android.material.R.attr.colorPrimaryFixed)
         onPrimaryColor = context.getThemeColor(com.google.android.material.R.attr.colorOnPrimary)
 
         if (context is StoriesCallback) storiesListener = context as StoriesCallback

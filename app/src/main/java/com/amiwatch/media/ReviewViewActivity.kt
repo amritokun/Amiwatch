@@ -116,7 +116,7 @@ class ReviewViewActivity : AppCompatActivity() {
     }
 
     private fun userVote(type: String) {
-        val selectedColor = getThemeColor(com.google.android.material.R.attr.colorPrimary)
+        val selectedColor = getThemeColor(com.google.android.material.R.attr.colorPrimaryFixed)
         val unselectedColor = getThemeColor(androidx.appcompat.R.attr.colorControlNormal)
         when (type) {
             "NO_VOTE" -> {
